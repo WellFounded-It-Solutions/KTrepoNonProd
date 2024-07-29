@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.navigaglobal.mobile.livecontent">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <activity android:name="se.infomaker.frtcontentlist.activity.ContentListActivity"/>
+
+        <activity android:name="se.infomaker.livecontentui.livecontentrecyclerview.activity.LiveContentRecyclerviewActivity" />
+
+        <activity android:name="se.infomaker.livecontentui.section.SectionedLiveContentActivity" />
+
+        <activity android:name="se.infomaker.livecontentui.livecontentdetailview.activity.ArticlePagerActivity" />
+
+        <activity android:name="se.infomaker.livecontentui.bookmark.article.BookmarkPagerActivity" />
+
+        <activity android:name="se.infomaker.livecontentui.section.detail.SectionDetailPagerActivity" />
+
+        <activity android:name="se.infomaker.livecontentui.section.detail.SectionItemDetailActivity" />
+
+        <activity android:name="se.infomaker.iap.articleview.item.embed.FullscreenEmbedActivity" android:configChanges="orientation|screenSize"/>
+
+        <activity android:name="se.infomaker.iap.articleview.extensions.ifragasatt.IfragasattDetailActivity" android:configChanges="orientation|screenSize"/>
+
+        <activity android:name="se.infomaker.iap.articleview.item.screen9.Screen9Activity" android:theme="@style/Theme.AppCompat.NoActionBar" android:configChanges="screenSize|orientation"/>
+
+        <activity android:name="se.infomaker.streamviewer.FollowRecyclerViewActivity"/>
+
+        <activity android:name="se.infomaker.streamviewer.topicpicker.TopicPickerActivity" android:windowSoftInputMode="stateHidden"/>
+
+        <activity android:name="se.infomaker.streamviewer.editpage.EditPageActivity" android:windowSoftInputMode="stateHidden"/>
+
+        <activity android:name="se.infomaker.flowplayer.library.FlowplayerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:configChanges="screenSize|orientation"/>
+
+        <provider
+            android:name="se.infomaker.datastore.DatabaseContentProvider"
+            android:authorities="${applicationId}.LiveContentUI.DB"
+            android:exported="false" />
+
+        <provider
+            android:name="se.infomaker.Init"
+            android:authorities="${applicationId}.LiveContentUI.Init"
+            android:exported="false" />
+
+        <provider
+            android:name="se.infomaker.livecontentui.NativeContentFragmentFactoryInjector"
+            android:authorities="${applicationId}.nativecontent.Injector"
+            android:exported="false" />
+
+        <provider
+            android:exported="false"
+            android:authorities="${applicationId}.articleview.livecontent.Init"
+            android:name="se.infomaker.iap.articleview.item.livecontent.Init"/>
+
+        <provider
+            android:exported="false"
+            android:authorities="${applicationId}.articleview.ContextAwareRegistration"
+            android:name="se.infomaker.iap.articleview.preprocessor.ContextAwareRegistration"/>
+
+        <provider
+            android:exported="false"
+            android:authorities="${applicationId}.follow.articleviewextentions"
+            android:name="se.infomaker.iap.articleview.Init"/>
+
+        <provider
+            android:name="se.infomaker.streamviewer.Init"
+            android:authorities="${applicationId}.follow.Init"
+            android:exported="false" />
+
+        <provider
+            android:exported="false"
+            android:initOrder="22"
+            android:authorities="${applicationId}.standardcomponents.setup.Init"
+            android:name="se.infomaker.iap.standardcomponents.Setup"/>
+
+        <provider android:name="se.infomaker.storagemodule.InitContentProvider"
+            android:authorities="${applicationId}.storagemodule"
+            android:exported="false">
+        </provider>
+    </application>
+
+</manifest>

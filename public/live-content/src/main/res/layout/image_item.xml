@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/image_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop" />
+
+    </FrameLayout>
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/image_view_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:themeKey="imageText" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/image_photographer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:themeKey="imageAuthorText"/>
+</LinearLayout>

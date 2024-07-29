@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="webview_error_title">Hoppsan!</string>
+    <string name="webview_error_message">Det verkar som du inte är ansluten till internet. Kontrollera din uppkoppling och försök igen.</string>
+    <string name="webview_error_unknown_error">Okänt fel</string>
+    <string name="webview_error_host_lookup">Server eller proxyvärdnamn uppslag misslyckades</string>
+    <string name="webview_error_unsupported_auth_scheme">Autentiseringsschemat stöds inte (inte basic eller digest)</string>
+    <string name="webview_error_authentication">Användarautentisering misslyckades på servern</string>
+    <string name="webview_error_proxy_authentication">Användarautentisering misslyckades på proxy</string>
+    <string name="webview_error_connect">Det gick inte att ansluta till servern</string>
+    <string name="webview_error_io">Det gick inte att läsa eller skriva till servern</string>
+    <string name="webview_error_timeout">Anslutningen har avbrutits</string>
+    <string name="webview_error_redirect_loop">För många omdirigeringar</string>
+    <string name="webview_error_unsupported_scheme">URI-schemat stöds inte</string>
+    <string name="webview_error_failed_ssl_handshake">Det gick inte att utföra SSL-handskakning</string>
+    <string name="webview_error_bad_url">Felaktig webbadress</string>
+    <string name="webview_error_file">Okänt filfel</string>
+    <string name="webview_error_file_not_found">Filen hittades inte</string>
+    <string name="webview_error_too_many_requests">För många förfrågningar</string>
+</resources>

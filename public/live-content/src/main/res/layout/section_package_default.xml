@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="2dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:themeBackgroundColor="listPackageBackground"
+        tools:background="#212121">
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.RxConstraintLayout
+            android:id="@+id/package_link"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:clickIdentifier="openEdition"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:themeTouchColor="listPackageTouchFeedback">
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+                android:id="@+id/teaserText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:maxLines="1"
+                app:bindKeyPath="coverArticle.teaserText"
+                app:layout_constraintBottom_toTopOf="@+id/teaserHeadline"
+                app:layout_constraintEnd_toStartOf="@+id/accessory"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:themeKey="listPackageText"
+                tools:text="Torsdag 24 september"
+                tools:textColor="#ffffff"
+                tools:textSize="20sp"
+                tools:textStyle="bold" />
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+                android:id="@+id/teaserHeadline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:maxLines="1"
+                app:bindKeyPath="coverArticle.teaserHeadline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/teaserText"
+                app:layout_constraintStart_toStartOf="@id/teaserText"
+                app:layout_constraintTop_toBottomOf="@id/teaserText"
+                app:themeKey="listPackageHeadline"
+                tools:text="Kvällsutgåva"
+                tools:textColor="#939393"
+                tools:textSize="20sp"
+                tools:textStyle="bold" />
+
+            <se.infomaker.iap.theme.view.ThemeableImageView
+                android:id="@+id/accessory"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="fitCenter"
+                app:fallbackImage="@drawable/icon_edition"
+                app:layout_constraintBottom_toBottomOf="@id/teaserHeadline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/teaserText"
+                app:themeKey="listPackageIcon"
+                app:themeTint="listPackageIcon"
+                tools:src="@drawable/icon_edition"
+                tools:tint="#939393" />
+
+        </se.infomaker.livecontentui.livecontentrecyclerview.view.RxConstraintLayout>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMRecyclerView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="226dp"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:itemsBindKeyPath="articles"
+            app:itemClickIdentifier="openArticle"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/package_link"
+            app:themeSpacing="listPackageArticleSpacing"
+            tools:itemCount="4"
+            tools:listitem="@layout/section_package_list_item_default" />
+
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+
+</androidx.cardview.widget.CardView>

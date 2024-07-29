@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.navigaglobal.mobile.extension.khaleejtimes">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application>
+        <provider
+            android:exported="false"
+            android:authorities="${applicationId}.khaleej.setup.Init"
+            android:name="se.infomaker.iap.khaleej.Setup"/>
+
+        <!-- NOTE! Tealium ad identifier needs this... -->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+    </application>
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <se.infomaker.iap.theme.view.ThemeableSwitch
+        android:id="@+id/toggle"
+        app:themeKey="purchaseSubscriptionLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:layout_marginLeft="4dp"
+        android:id="@+id/text"
+        tools:text="Bl"
+        app:themeKey="provisioningBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

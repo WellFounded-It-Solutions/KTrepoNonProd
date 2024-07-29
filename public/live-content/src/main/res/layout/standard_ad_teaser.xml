@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="2dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:themeBackgroundColor="adTeaserBackground">
+        <se.infomaker.iap.theme.view.ThemeableTextView
+            android:id="@+id/topbalk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="24dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:themeBackgroundColor="teaserAdBackground"
+            app:themeKey="teaserAdTitle"
+            android:text="@string/ad"/>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+            android:id="@+id/teaserImage"
+            app:layout_constraintTop_toBottomOf="@id/topbalk"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:background="#ccc"
+            app:bindKeyPath="teaserImageUuid"
+            app:cropKeyPath="teaserImageCrop"
+            app:heightKeyPath="teaserImageHeight"
+            app:widthKeyPath="teaserImageWidth"
+            app:type="hardCrop" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="teaserImage, topbalk" />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            app:layout_constraintTop_toBottomOf="@id/barrier"
+            app:themeBackgroundColor="teaserHeadlineBackground"
+            app:themeKey="teaserHeadline"
+            tools:text="Zlatan Ibrahimovic LA Galaxy: Zlatan joins LA Galaxy after Manchester United departure" />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserLeadin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="5dp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            app:layout_constraintTop_toBottomOf="@id/teaserHeadline"
+            app:layout_goneMarginTop="10dp"
+            app:themeBackgroundColor="teaserLeadinBackground"
+            app:themeKey="teaserLeadin"
+            tools:text="Manchester United agreed to the mutual termination of Ibrahimovic's contract on Thursday, paving the way for the 36-yea..." />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/adSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/publicationDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teaserLeadin"
+            app:themeBackgroundColor="adSenderBackground"
+            app:themeKey="adSender"
+            tools:text="SPORT" />
+        <se.infomaker.iap.theme.view.ThemeableFrameLayout
+            android:id="@+id/bottomBalk"
+            android:layout_width="match_parent"
+            app:themeBackgroundColor="teaserAdBackground"
+            android:layout_height="3dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/adSender"/>
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+</se.infomaker.iap.theme.view.ThemeableCardView>

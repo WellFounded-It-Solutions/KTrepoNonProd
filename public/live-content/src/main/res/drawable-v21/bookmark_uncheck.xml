@@ -1,0 +1,29 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="99dp"
+            android:height="73dp"
+            android:viewportWidth="99"
+            android:viewportHeight="73">
+            <path
+                android:name="check"
+                android:pathData="M 3.535 36.935 L 32.899 66.299 L 95.662 3.536"
+                android:strokeColor="#ffffff"
+                android:strokeWidth="10"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="check">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="strokeAlpha"
+                android:duration="200"
+                android:valueFrom="1"
+                android:valueTo="0"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

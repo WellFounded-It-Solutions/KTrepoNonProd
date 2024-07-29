@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <se.infomaker.iap.theme.view.ThemeableToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:minHeight="?actionBarSize"
+                app:themeBackgroundColor="toolbarColor">
+
+                <se.infomaker.iap.theme.view.ThemeableTextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    app:themeKey="toolbarTitle"
+                    tools:text="My Title" />
+
+            </se.infomaker.iap.theme.view.ThemeableToolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <se.infomaker.livecontentui.offline.OfflineBannerLayout
+            android:id="@+id/offline_banner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <se.infomaker.iap.theme.view.ThemeableFrameLayout
+            android:id="@+id/top_sticky_ad_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:themeBackgroundColor="stickyAdBackground"
+            app:themeFallbackBackgroundColor="#f2f2f2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/offline_banner" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top_sticky_ad_wrapper" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <se.infomaker.iap.theme.view.ThemeableFrameLayout
+        android:id="@+id/bottom_sticky_ad_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_behavior="se.infomaker.frt.ui.behavior.BottomAdBannerBehavior"
+        app:behavior_contentView="@id/content_holder"
+        app:themeBackgroundColor="stickyAdBackground"
+        app:themeFallbackBackgroundColor="#f2f2f2" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

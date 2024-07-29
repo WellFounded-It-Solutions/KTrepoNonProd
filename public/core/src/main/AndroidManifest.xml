@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.navigaglobal.mobile" >
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/FrtTheme"
+        android:usesCleartextTraffic="true" >
+
+        <meta-data
+            android:name="SMT_APP_ID"
+            android:value="474baacc94ec25ed76f9b51e6440a909" />
+
+        <meta-data
+            android:name="HANSEL_APP_ID"
+            android:value="3P8WEJYW534C6DQ5Y2DMOWB2A" />
+
+        <meta-data
+            android:name="HANSEL_APP_KEY"
+            android:value="O6D0HZNQNTIMTV1XYA55LW501ILGFP9AEX3THMR1F5GDNIWKKH" />
+
+        <activity
+            android:name="se.infomaker.iap.SplashScreenActivity"
+            android:exported="true"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="app-nudges" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="se.infomaker.frt.ui.activity.MainActivity"
+            android:theme="@style/FrtTheme"
+            />
+
+        <activity
+            android:name="se.infomaker.frt.ui.activity.SingleMenuItemActivity"
+            android:theme="@style/FrtTheme" />
+            
+        <activity
+            android:name="se.infomaker.frt.deeplink.DeepLinkActivity"
+            android:configChanges="orientation"
+            android:theme="@style/Splashscreen" />
+        <activity android:name="se.infomaker.iap.action.module.ModuleActivity" />
+
+        <activity android:name="se.infomaker.iap.update.ui.UpdateActivity" />
+
+<!--        <activity-->
+<!--            android:name="se.infomaker.iap.SpringBoardActivity"-->
+<!--            android:configChanges="orientation"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/Splashscreen" >-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <activity
+            android:name="se.infomaker.iap.action.display.DisplayActivity"
+            android:theme="@style/NoActionBarActionMode" />
+        <activity
+            android:name="se.infomaker.coremedia.coveritlive.CoverItLivePlayerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="se.infomaker.coremedia.shootitlive.ShootItLivePlayerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="se.infomaker.frt.ui.activity.SettingsActivity" />
+        <activity
+            android:name="se.infomaker.coremedia.slideshow.SlideshowActivity"
+            android:theme="@style/TransitionEnabledTheme" />
+        <activity
+            android:name="se.infomaker.coremedia.solidtango.SolidTangoPlayerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="se.infomaker.coremedia.youtube.YouTubePlayerActivity" />
+        <activity android:name="se.infomaker.frt.moduleinterface.action.module.ModuleActivity" />
+        <activity android:name="se.infomaker.iap.provisioning.UIActivity" />
+        <activity android:name="se.infomaker.iap.provisioning.ui.PaywallActivity" />
+        <activity android:name="se.infomaker.iap.provisioning.ui.LoginActivity" />
+        <activity
+            android:name="se.infomaker.iap.provisioning.firebase.LogoutReturnActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Translucent"
+            android:usesCleartextTraffic="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="noop"
+                    android:scheme="${applicationId}" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.infomaker.iap.provisioning.firebase.StepStoneActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="se.infomaker.iap.provisioning.firebase.AuthCodeActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="oauth2redirect"
+                    android:scheme="${applicationId}" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.infomaker.frt.ui.fragment.WebContentActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="se.infomaker.frt.ui.activity.WebContentJSActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <receiver
+            android:name="se.infomaker.frt.notification.NotificationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="notification_cancelled" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="se.infomaker.iap.BaseSetup"
+            android:authorities="${applicationId}.base.BaseSetup"
+            android:exported="false" />
+        <provider
+            android:name="se.infomaker.frt.CoreSetup"
+            android:authorities="${applicationId}.CoreSetup"
+            android:exported="false"
+            android:initOrder="@integer/fallbackStateRouter" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge" >
+
+            <!-- If you are using androidx.startup to initialize other components -->
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"
+                tools:node="remove" />
+        </provider>
+        <provider
+            android:name="se.infomaker.iap.provisioning.Setup"
+            android:authorities="${applicationId}.provisioning.setup.Init"
+            android:exported="false"
+            android:initOrder="80" />
+        <provider
+            android:name="se.infomaker.frt.statistics.StatisticsSetup"
+            android:authorities="${applicationId}.statistics.StatisticsSetup"
+            android:exported="false" />
+        <provider
+            android:name="se.infomaker.iap.ui.UiSetup"
+            android:authorities="${applicationId}.UiSetup"
+            android:exported="false" />
+        <provider
+            android:name="se.infomaker.frtutilities.Setup"
+            android:authorities="${applicationId}.utilities.Setup"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+{
+  "color": {
+    "bookmarkTeaserBackground": "teaserBackground"
+  },
+  "text": {
+    "bookmarkTeaserSubject": "teaserSubject",
+    "bookmarkTeaserPubDate": "teaserPubDate"
+  }
+}

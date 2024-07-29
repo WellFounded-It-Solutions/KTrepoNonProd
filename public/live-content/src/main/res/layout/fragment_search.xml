@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <se.infomaker.iap.theme.view.ThemeableToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:themeBackgroundColor="toolbarColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <se.infomaker.iap.theme.view.ThemeableEditText
+                    android:id="@+id/search_input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    app:themeKey="toolbarSearch"
+                    app:hintThemeColor="toolbarSearchHint" />
+
+                <se.infomaker.iap.theme.view.ThemeableImageView
+                    android:id="@+id/clear_search"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:scaleType="centerInside"
+                    app:themeTint="toolbarAction"
+                    app:themeTouchColor="touchfeedback"
+                    android:contentDescription="@string/clear_search_content_description" />
+
+            </LinearLayout>
+
+        </se.infomaker.iap.theme.view.ThemeableToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <se.infomaker.iap.theme.view.ThemeableFrameLayout
+        android:id="@+id/pre_search_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="112dp"
+        android:visibility="visible"
+        app:themeBackgroundColor="listBackground"
+        app:themeFallbackBackgroundColor="background"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/search_results_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

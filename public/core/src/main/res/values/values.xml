@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="fallbackStateRouter">2</integer>
+    <integer name="stateRouter">1</integer>
+
+    <bool name="portrait_only">true</bool>
+</resources>

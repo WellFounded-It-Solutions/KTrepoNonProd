@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:themeBackgroundColor="bookmarkTeaserBackground"
+    app:themeFallbackBackgroundColor="#ffffff"
+    app:cardElevation="0dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <se.infomaker.iap.theme.view.ThemeableCardView
+            android:id="@+id/teaserImageContainer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#edeeef"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="0dp"
+            app:layout_constraintTop_toTopOf="@+id/teaserSubject"
+            app:themeBackgroundColor="bookmarkFallbackImageColor">
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+                android:id="@+id/teaserImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:bindKeyPath="teaserImageUuid"
+                app:cropKeyPath="teaserImageCrop1_1"
+                app:fallbackDrawable="@drawable/bookmark_placeholder_image"
+                app:heightKeyPath="teaserImageHeight"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintTop_toTopOf="@+id/teaserHeadline"
+                app:type="hardCrop"
+                app:widthKeyPath="teaserImageWidth"
+                tools:background="#ccc" />
+
+            <se.infomaker.iap.theme.view.ThemeableFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#77000000"
+                android:tag="select_indicator_background"
+                app:themeBackgroundColor="bookmarkSelectIndicatorBackground" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:tag="select_indicator" />
+        </se.infomaker.iap.theme.view.ThemeableCardView>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserSubject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/teaserImageContainer"
+            app:layout_constraintTop_toTopOf="@+id/teaserImageContainer"
+            app:suffixThemeKey="bookmarkTeaserPubDate"
+            app:textSuffix=" ·"
+            app:themeKey="bookmarkTeaserSubject"
+            tools:text="SPORT" />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserHeadline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/teaserImageContainer"
+            app:layout_constraintTop_toBottomOf="@+id/teaserSubject"
+            app:themeKey="bookmarkTeaserHeadline"
+            tools:text="Zlatan Ibrahimovic LA Galaxy: Zlatan joins LA Galaxy after Manchester United departure" />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/publicationDate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:textSize="13sp"
+            app:textFormat="isoDate"
+            app:themeBackgroundColor="bookmarkTeaserPubDateBackground"
+            app:themeKey="bookmarkTeaserPubDate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/teaserImageContainer"
+            app:layout_constraintTop_toBottomOf="@+id/teaserHeadline"
+            tools:text="2h ago" />
+
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+</se.infomaker.iap.theme.view.ThemeableCardView>

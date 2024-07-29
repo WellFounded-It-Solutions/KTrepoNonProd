@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/settings_receive_notifications"
+        app:iconSpaceReserved="false">
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_receive_push"
+            android:summary="@string/settings_push_info"
+            android:title="@string/settings_receive_push"
+            app:iconSpaceReserved="false" />
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_push_sound"
+            android:summary="@string/settings_push_sound_info"
+            android:title="@string/settings_push_sound"
+            app:iconSpaceReserved="false" />
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_push_vibrate"
+            android:summary="@string/settings_push_vibrate_info"
+            android:title="@string/settings_push_vibrate"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_category_epaper"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:defaultValue="7"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+            android:key="pref_epaper_amount_save"
+            android:summary="%s"
+            android:title="@string/settings_issues_keep"
+            app:iconSpaceReserved="false" />
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_download"
+            android:summary="@string/settings_background_info"
+            android:title="@string/settings_download_background"
+            app:iconSpaceReserved="false" />
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_download_cellular"
+            android:summary="@string/settings_download_cellular_info"
+            android:title="@string/settings_download_cellular_short"
+            app:iconSpaceReserved="false" />
+        <!--<Preference
+            android:key="pref_open_source_licenses"
+            android:title="@string/setting_open_source_licenses" />-->
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_category_general"
+        app:iconSpaceReserved="false">
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_prefetch"
+            android:summary="@string/settings_content_prefetching"
+            android:title="@string/settings_content_prefetching_info"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="pref_build_version"
+            android:title="@string/settings_version"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="pref_privacy_policy"
+            android:title="@string/settings_policytitle"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

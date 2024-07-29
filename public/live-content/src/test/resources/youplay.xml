@@ -1,0 +1,31 @@
+<object id="youplay-cff2674c265297eeb00c5faae4f047da" type="x-im/youplay" uri="x-im://youplay/244538">
+    <data>
+        <title>Elever fick testa att ta sig upp ur en isvak</title>
+        <description>&lt;p&gt;Bengtsgårdens elever får varje år testa att ta sig upp ur en isvak. I veckan som gick var det dags igen och även sjätteklassarna provade på. &lt;/p&gt;</description>
+        <start>00:00</start>
+        <minutes>1</minutes>
+        <seconds>37</seconds>
+        <embedCode><![CDATA[<script async defer src="https://delivery.youplay.se/load.js?id=1550141770244538" class="yp" data-config='{"player":"sp","zone_id":"396","mute":false,"autoplay":false,"part_id":244538,"time":0,"addons":"111"}'>
+                            </script>]]></embedCode>
+        <figure><![CDATA[<figure class="op-ad">
+                            <iframe>
+                                <script async defer src="https://delivery.youplay.se/load.js?id=1550141770244538" class="yp" data-config='{"player":"sp","zone_id":"396","mute":false,"autoplay":false,"part_id":244538,"time":0,"addons":"111"}'>
+                                </script>
+                            </iframe>
+                        </figure>]]></figure>
+    </data>
+    <links>
+        <link rel="alternate" type="text/html" title="Elever fick testa att ta sig upp ur en isvak">
+            <data>
+                <context>Video</context>
+                <provider>YouPlay</provider>
+            </data>
+        </link>
+        <link rel="alternate" type="image/jpg" url="https://cdn-b.youplay.se/part/partimage/244538/share_image/bc74e1e71d.png">
+            <data>
+                <width>1280</width>
+                <height>720</height>
+            </data>
+        </link>
+    </links>
+</object>

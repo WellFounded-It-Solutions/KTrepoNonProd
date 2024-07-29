@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="webview_error_title">Ops! Jotain meni pieleen</string>
+    <string name="webview_error_message">Sivun lataaminen epäonnistui</string>
+</resources>

@@ -1,0 +1,214 @@
+{
+"id": "78a713d7-4746-4101-af28-c901006bb1cd",
+"versions": [
+{
+"id": 282,
+"properties": {
+"ArticleRelations": [
+{
+"ArticleContent": [
+"Nyhet"
+],
+"TeaserImageHeight": null,
+"RelatedLinks": null,
+"ShowContentExplanation": [
+"true"
+],
+"Geometries": [],
+"ArticleHeadline": [
+"World Cup final brings world together"
+],
+"uuid": [
+"05a0d9ee-5eb7-449d-bc06-03726f6d9455"
+],
+"ImageWidths": null,
+"AuthorConcepts": [
+{
+"Email": [
+"peter.mansson@infomaker.se"
+],
+"ConceptName": [
+"Peter Månsson"
+],
+"uuid": [
+"abe22c5f-711c-468c-b4e5-bc9058af9983"
+],
+"contenttype": [
+"Concept"
+]
+}
+],
+"TeaserImageUuid": null,
+"Stories": [],
+"ImageUuids": null,
+"TeaserImageCrop2to1": null,
+"ArticleBodyRaw": [
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><idf xmlns=\"http://www.infomaker.se/idf/1.0\" dir=\"ltr\" xml:lang=\"sv\">\n                \n                \n                <group type=\"body\"><element id=\"headline-d1f5ac9f52fc17b4da89004c9c7493da\" type=\"headline\">World Cup final brings world together</element><element id=\"preamble-a5efff9f3af396a0b0f095f2284b9023\" type=\"preamble\">Whether you call it football or soccer, the World Cup brings sports fans together in a way no other event does</element><element id=\"dateline-c62326f83acd01f3ac05492fa1c026d4\" type=\"dateline\">Melbourne</element><element id=\"paragraph-47c830525c2aa1350527b71ffbfe23d8\" type=\"body\">More than 2 billion fans around the world will watch World Cup matches on over-the-air television, cable, and streaming sites.</element><element id=\"paragraph-1c5f3f74919b14088c2312e93008607d\" type=\"body\"/><element id=\"paragraph-de02f5d68812dac8b0fab690c8731414\" type=\"body\">From Russia to Rejkajvik, people stop what they're doing to watch the games.</element><element id=\"paragraph-5fde5808446204460637142c4a7dd6cb\" type=\"body\">\"We love to watch the football,\" Ryan Engelman said.</element><element id=\"paragraph-04249df07775f57dc553a55c843cd230\" type=\"body\"><a href=\"Read more about the stuff.\" id=\"link-7fb9d91f39c4d8a2055174897c6f0cdf\">https://datawrapper.dwcdn.net/cMMly/1/</a></element><element id=\"paragraph-2efc4ab718b5636ab0f4be226e04aeeb\" type=\"body\">When in the course of human events it comes time to test software, we test software to test it.</element></group></idf>"
+],
+"TeaserText": [
+"Whether you call it football or soccer, the World Cup brings sports fans together in a way no other event does"
+],
+"TagConcepts": [],
+"Categories": [
+{
+"ConceptName": [
+"Sport"
+],
+"uuid": [
+"c13b0852-254f-4eb0-9eab-cea7ddd3b683"
+]
+}
+],
+"Pubdate": [
+"2018-08-09T13:51:48Z"
+],
+"TeaserImageWidth": null,
+"EveryUrlCollection": null,
+"contenttype": [
+"Article"
+],
+"ArticleDateline": [
+"Melbourne"
+],
+"ImageHeights": null,
+"ArticleContentType": [
+"Nyhet"
+],
+"TeaserHeadline": [
+"World Cup final brings world together"
+]
+},
+{
+"ArticleContent": [
+"Nyhet"
+],
+"TeaserImageHeight": [
+"416"
+],
+"RelatedLinks": null,
+"ShowContentExplanation": [
+"true"
+],
+"Geometries": [],
+"ArticleHeadline": [
+"Vendsyssel er superliga-klar nu"
+],
+"uuid": [
+"7e452a3b-18e9-4020-a72b-c1c9001b2b7b"
+],
+"ImageWidths": [
+"624",
+"5127"
+],
+"AuthorConcepts": [
+{
+"Email": [
+"erik@infomaker.se"
+],
+"ConceptName": [
+"Erik Thörnqvist"
+],
+"uuid": [
+"cce2df0d-112b-4cf2-b548-f2d81e6abd99"
+],
+"contenttype": [
+"Concept"
+]
+}
+],
+"TeaserImageUuid": [
+"a9e6115c-9331-51af-9f1e-56c6cb6de6f2",
+"b9d1e20e-5cdf-547f-b3ea-b33b59bf26aa",
+"2929c2a6-c859-56e1-bff5-844f311c9124",
+"e52f20b0-9a7c-5749-8264-01284b78733f",
+"52a74f53-a5a1-5663-9e4f-d428d5c6238a",
+"23b45cc9-25dd-5453-b585-c6136c8ca6da",
+"638f1817-b586-5300-9820-d125baf64b10",
+"4d563a12-c2c0-5510-9654-a989408a72dc",
+"a1ca1aca-ddfb-5aef-807d-a244011a7ee2"
+],
+"Stories": [],
+"ImageUuids": [
+"a9e6115c-9331-51af-9f1e-56c6cb6de6f2",
+"b9d1e20e-5cdf-547f-b3ea-b33b59bf26aa",
+"2929c2a6-c859-56e1-bff5-844f311c9124",
+"e52f20b0-9a7c-5749-8264-01284b78733f",
+"52a74f53-a5a1-5663-9e4f-d428d5c6238a",
+"23b45cc9-25dd-5453-b585-c6136c8ca6da",
+"638f1817-b586-5300-9820-d125baf64b10",
+"4d563a12-c2c0-5510-9654-a989408a72dc",
+"a1ca1aca-ddfb-5aef-807d-a244011a7ee2"
+],
+"TeaserImageCrop2to1": [
+"im://crop/0/0.020637898686679174/1/0.7504690431519699"
+],
+"ArticleBodyRaw": [
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><idf xmlns=\"http://www.infomaker.se/idf/1.0\" dir=\"ltr\" xml:lang=\"sv\">\n                \n                \n                <group type=\"body\"><element id=\"headline-00d9543be29be91a3f5b2024a8998837\" type=\"headline\">Vendsyssel er superliga-klar nu</element><element id=\"preamble-a5efff9f3af396a0b0f095f2284b9023\" type=\"preamble\">Vendsyssel FF er klar til superligaen i næste sæson. Det blev slået fast, da de søndag vandt 2-1 i Lyngby og dermed tog en samlet sejr på 3-1 i de to playoffkampe.</element><element id=\"preamble-f7062853552ed8c775d09bb9c9a851bd\" type=\"preamble\">Hele Vendsyssel FF bænken og de 11 spillere på grønsværen brød ud i vild jubel, da dommer Anders Poulsen fløjtede kampen af.</element><element id=\"dateline-c62326f83acd01f3ac05492fa1c026d4\" type=\"dateline\">Fodbold</element><element id=\"paragraph-12cdd9b8d3fbf01a544e30b11751eef5\" type=\"body\">I forhold til playoffkampen i torsdags <a href=\"www.nordjyske.dk\" id=\"link-9fbccc9f91b6813437fa6c5bc58d9ec9\">havde</a> begge holds trænere valgt at erstatte deres angriber. Vendsyssel FF stillede med Marcus Solberg som forreste mand. Hos Lyngby var Mayron George erstattet af Jeppe Kjær.</element><element id=\"blockquote-dca279046302410009870df2df37abfa\" type=\"blockquote\">Vi vann!</element><element id=\"paragraph-99737f755deeb82f1f32329e0406f999\" type=\"body\"/><object id=\"MzcsMTk2LDEzMywxMjc\" title=\"Kampen spiller\" type=\"x-gm/review\"><data><score>5</score><text format=\"idf\"><element id=\"paragraph-48ee2ff0d178b4d030d2d306c75c28ec\" type=\"body\">Jeppe Kjær</element></text></data></object><element id=\"paragraph-1f6e0dabf181a1faea2682bb9bbe0d6a\" type=\"body\">Lyngby kom aggressivt ud fra start. Hjemmeholdet forsøgte fra første fløjt at få rykket spillet op på nordjydernes banehalvdel, men Vendsyssel stod godt imod. Lyngbys energi og aggressivitet resulterede ikke i chancer, og de første ti minutter var primært præget af en masse dueller.</element><object id=\"MTQ0LDUxLDQyLDEyMg\" type=\"x-im/image\" uuid=\"a9e6115c-9331-51af-9f1e-56c6cb6de6f2\"><links><link rel=\"self\" type=\"x-im/image\" uri=\"im://image/ap919t8gx0XeC-nS79jf6VOmenk.jpg\" uuid=\"a9e6115c-9331-51af-9f1e-56c6cb6de6f2\"><data><width>624</width><height>416</height><text/></data><links><link rel=\"crop\" title=\"2:1\" type=\"x-im/crop\" uri=\"im://crop/0/0.020637898686679174/1/0.7504690431519699\"/><link rel=\"crop\" title=\"3:2\" type=\"x-im/crop\" uri=\"im://crop/0/0/1/1\"/><link rel=\"crop\" title=\"2:3\" type=\"x-im/crop\" uri=\"im://crop/0.335/0/0.44375/1\"/></links></link></links></object><element id=\"paragraph-e6972a9982742c395917ab92c317e5bb\" type=\"body\">Kampens første afslutning stod gæsterne fra Vendsyssel for. Kristian Riis kom efter 15. minutter først på et hjørnespark, men midtstopperen kunne se sin afslutning gå et stykke over mål.</element><element id=\"paragraph-9b2b82b32e359b297a93458b845a1f4a\" type=\"body\">Efter 25 minutters spil kom hjemmeholdet frem til sin første afslutning. Michael Lumb stod fri ved bagerste stolpe, men venstrebacken flugtede bolden forbi mål.</element><object id=\"iframely-7484aa51b9887c65de67bcb6b4c5e191\" type=\"x-im/iframely\" url=\"https://www.instagram.com/p/BTl7ybuAhCa/\"><data><title>Zlatan Ibrahimović on Instagram: “Fixed, done and stronger. Once again thank you for the support. We will enjoy my game togheter soon”</title><embedCode>&lt;blockquote class=\"instagram-media\" data-instgrm-permalink=\"https://www.instagram.com/p/BTl7ybuAhCa/\" data-instgrm-version=\"8\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"&gt;&lt;div style=\"padding:8px;\"&gt; &lt;div style=\" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;\"&gt; &lt;div style=\" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;\"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"&gt;&lt;a href=\"https://www.instagram.com/p/BTl7ybuAhCa/\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\"&gt;A post shared by Zlatan Ibrahimović (@iamzlatanibrahimovic)&lt;/a&gt; on &lt;time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2017-05-02T14:07:04+00:00\"&gt;May 2, 2017 at 7:07am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;\n&lt;script async defer src=\"//platform.instagram.com/en_US/embeds.js\"&gt;&lt;/script&gt;</embedCode></data><links><link rel=\"alternate\" title=\"Zlatan Ibrahimović on Instagram: “Fixed, done and stronger. Once again thank you for the support. We will enjoy my game togheter soon”\" type=\"text/html\" url=\"https://www.instagram.com/p/BTl7ybuAhCa/\"><data><context>Social</context><description>Fixed, done and stronger. Once again thank you for the support. We will enjoy my game togheter soon</description><provider>Instagram</provider></data></link><link rel=\"alternate\" type=\"image/jpg\" url=\"http://instagram.com/p/BTl7ybuAhCa/media/?size=l\"><data><width>1080</width><height>1350</height></data></link></links></object><element id=\"paragraph-fb366165b5b38bed28eb33efb53a8e1a\" type=\"body\">Vendsyssel FF havde store problemer med at hold fast i bolden, men heldigvis for gæsterne, så udnyttede Lyngby ikke det overtag de havde. Det var en meget chancefattig første halvleg. </element><object id=\"MTg3LDE0Nyw5Miw2Ng\" type=\"x-im/image\" uuid=\"b9d1e20e-5cdf-547f-b3ea-b33b59bf26aa\"><links><link rel=\"self\" type=\"x-im/image\" uri=\"im://image/-GHFRpbKQ4FltBVcgiF-XYa-__4.jpg\" uuid=\"b9d1e20e-5cdf-547f-b3ea-b33b59bf26aa\"><data><width>5127</width><height>3149</height><text>LUND 2018-05-16 Lund laddar för karneval. Karnevalsgeneral Freja Davidsson Bremborg på karnevalsområdet i Lundagård i centrala Lund på onsdagen. Det är vart fjärde år i Lund och på fredag går startskottet för Lundakarnevalen 2018. Årets tema är Imaginalkarneval. Förra gången det begav sig lockade karnevalen 400000 besökare till studentstaden Lund. Lundakarnevalen arrangerades för första gången 1849. Foto: Johan Nilsson / TT / Kod 50090 </text></data><links><link rel=\"author\" title=\"Johan Nilsson/TT\" type=\"x-im/author\" uuid=\"00000000-0000-0000-0000-000000000000\"/></links></link></links></object><element id=\"paragraph-59340e0932f54b558f1b4580bb358756\" type=\"body\">Efter godt 40 minutters spil kom <a href=\"https://nordjyske.dk/nyheder/hoege-paa-rov-henter-talent-hos-konkurrent/2ecbf651-525f-48ed-b71a-9c1bbbe53b5\" id=\"link-1a34cbf36e96089ab83bf1b3b513c10b\">hjemmeholdet</a> fra Lyngby frem til sin blot anden afslutning, da Jesper Christjansen efter et hjørnespark sendte bolden lige forbi vendelboernes mål.</element><object id=\"contentrelations-e6b03c4bfa89feb481ee9248760718fb\" title=\"Nämnd ändrade sig om speltid\" type=\"x-im/link\" uuid=\"b72e43cd-1bfa-410a-ae23-724efd623344\"><links><link rel=\"self\" type=\"x-im/article\" uuid=\"b72e43cd-1bfa-410a-ae23-724efd623344\"/></links></object><element id=\"paragraph-a1c5cd473b4bde900ba3da389f5b7137\" type=\"body\">Første halvlege sluttede som den startede. 0-0.</element><object id=\"ODQsMTUsMTQxLDExNA\" title=\"\" type=\"x-gm/slideshow\"><links><link id=\"MTQ1LDM4LDIxOCwzNA\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/QqWiXk_1A7DtEbIh_xrpvw9dh3M.jpg\" uuid=\"2929c2a6-c859-56e1-bff5-844f311c9124\"><data><width>960</width><height>640</height></data></link><link id=\"MzgsMjAwLDIxNSw2\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/6b244y-oPwbK8qQd1b0Ry08blgY.jpg\" uuid=\"e52f20b0-9a7c-5749-8264-01284b78733f\"><data><width>960</width><height>640</height></data></link><link id=\"MTkxLDk5LDM1LDQy\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/oH0HYZFnzQOK5UZEukmeeRedZ9I.jpg\" uuid=\"52a74f53-a5a1-5663-9e4f-d428d5c6238a\"><data><width>960</width><height>640</height></data></link><link id=\"MTA5LDE1OSwxODIsMjM\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/3cMPBOTSVCJLJrdwCs1FV-Z1mJ0.jpg\" uuid=\"23b45cc9-25dd-5453-b585-c6136c8ca6da\"><data><width>960</width><height>640</height></data></link><link id=\"MTUzLDUwLDEzMiw4\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/dkvuqAwfVnU9mHYvU7V55FtrPD0.jpg\" uuid=\"638f1817-b586-5300-9820-d125baf64b10\"><data><width>960</width><height>640</height></data></link><link id=\"MjIsMjQzLDI0MCwxMTM\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/7IArvS4F9RDjltRTjOAQJiCTe0g.jpg\" uuid=\"4d563a12-c2c0-5510-9654-a989408a72dc\"><data><width>960</width><height>640</height></data></link><link id=\"NDgsMTMxLDI0MCwyMzQ\" rel=\"self\" type=\"x-im/image\" uri=\"im://image/p4Ay4VlXhQk-fHzruumBSmUfuZ8.jpg\" uuid=\"a1ca1aca-ddfb-5aef-807d-a244011a7ee2\"><data><text>LUND 2018-05-16 \nLund laddar för karneval. Juriststudent med kaffeproblem  i smånöjet Sketchofori på karnevalsområdet i Lundagård i centrala Lund på onsdagen. Det är vart fjärde år i Lund och på fredag går startskottet för Lundakarnevalen 2018. Årets tema är Imaginalkarneval. Förra gången det begav sig lockade karnevalen 400000 besökare till studentstaden Lund. Lundakarnevalen arrangerades för första gången 1849. \nFoto: Johan Nilsson / TT / Kod 50090 \n</text><width>5102</width><height>3501</height></data><links><link rel=\"author\" title=\"Johan Nilsson/TT\" type=\"x-im/author\" uuid=\"00000000-0000-0000-0000-000000000000\"/></links></link><link rel=\"alternate\" type=\"image/jpg\" url=\"https://gotamedia-writer-dev-internal.imgix.net/QqWiXk_1A7DtEbIh_xrpvw9dh3M.jpg?binaryUri=im%3A%2F%2Fimage%2FQqWiXk_1A7DtEbIh_xrpvw9dh3M.jpg&amp;id=2929c2a6-c859-56e1-bff5-844f311c9124&amp;imType=x-im%2Fimage&amp;ixlib=java-1.0.0&amp;w=800&amp;s=494563ce09770675205f6e83aea28624\"><data><width>960</width><height>640</height></data></link><link rel=\"alternate\" title=\"\" type=\"text/html\" url=\"http://embed.test.gotamedia.se/slideshow?d=eyJpbWFnZXMiOlt7InUiOiIyOTI5YzJhNi1jODU5LTU2ZTEtYmZmNS04NDRmMzExYzkxMjQiLCJ3Ijo5NjAsImgiOjY0MH0seyJ1IjoiZTUyZjIwYjAtOWE3Yy01NzQ5LTgyNjQtMDEyODRiNzg3MzNmIiwidyI6OTYwLCJoIjo2NDB9LHsidSI6IjUyYTc0ZjUzLWE1YTEtNTY2My05ZTRmLWQ0MjhkNWM2MjM4YSIsInciOjk2MCwiaCI6NjQwfSx7InUiOiIyM2I0NWNjOS0yNWRkLTU0NTMtYjU4NS1jNjEzNmM4Y2E2ZGEiLCJ3Ijo5NjAsImgiOjY0MH0seyJ1IjoiNjM4ZjE4MTctYjU4Ni01MzAwLTk4MjAtZDEyNWJhZjY0YjEwIiwidyI6OTYwLCJoIjo2NDB9LHsidSI6IjRkNTYzYTEyLWMyYzAtNTUxMC05NjU0LWE5ODk0MDhhNzJkYyIsInciOjk2MCwiaCI6NjQwfSx7InUiOiJhMWNhMWFjYS1kZGZiLTVhZWYtODA3ZC1hMjQ0MDExYTdlZTIiLCJ3Ijo1MTAyLCJoIjozNTAxfV0sImlkIjoiT0RRc01UVXNNVFF4TERFeE5BIiwiYSI6IjdlNDUyYTNiLTE4ZTktNDAyMC1hNzJiLWMxYzkwMDFiMmI3YiJ9\"><data><context>Bildspel</context><provider>Gota Media</provider></data></link></links></object><element id=\"paragraph-dd496de367644df61d3971910b7c80ce\" type=\"body\">Til anden halvlegs start foretog Vendsyssel FF en udskiftning. Jakob Hjorth kom ind i stedet for en skadet Brandoao. Det betød, at Mohamed gik ud på højreback og Jakob Hjorth kom ind i midterforsvaret ved siden af Kristian Riis.</element><element id=\"paragraph-d669624017cc34f8945427b61d8b8152\" type=\"body\">Vendsyssel FF stod for anden halvlegs første afslutning. Lucas Jensen driblede efter 52 minutter ind i feltet og afsluttede højt mod målet, men Mikkel Andersen havde ikke de store problemer med afslutningen.</element><element id=\"paragraph-aea165d4abef2b186037233db65288f0\" type=\"body\">Efter ti minutters spil af anden halvleg kom der for alvor drama i kampen. Efter klumpspil i Vendsyssels felt blev Lyngby tildelt et straffespark. Herolind Shala blev sat til at sparke, men målmand Nikolai Flø i fortsatte sit imponerende spil og reddede straffesparket. På det efterfølgende hjørnespark kom Kevin Tshiembe højest, men hans hovedstød sneg sig lige forbi venstre målstolpe.</element><element id=\"paragraph-8124aea7c1965e6c86b7353c9a975ef3\" type=\"body\">Efter 71. minutter kom forløsningen for Vendsyssel FF. Lucas Jensen blev sendt i dybden og med en fræk yderside afslutning bragte han gæsterne foran med 1-0.</element><element id=\"paragraph-a9e61353378640bd1c63f241b98ce2a7\" type=\"body\">Lyngby kastede alt frem i de sidste minutter og med 10 minutter igen kom udligningen. Jeppe Kjær snød Vendsyssel forsvaret inde i feltet og sendte udligningen i kassen.</element><element id=\"paragraph-2ca84cd42a29fa2d8fc1bf2679b9f10f\" type=\"body\">Lyngby fik lagt et tungt pres på gæsterne efter udligningen, men Vendsyssel FF fik til sidst lukket kampen, da Mikael Anderson sikrede sejren med sin scoring i overtiden.</element><object id=\"MTg0LDk3LDQ0LDQy\" type=\"x-im/content-part\"><data><text format=\"idf\"><element id=\"paragraph-45de54ed0bbd6ac404e1e6dfb357edb6\" type=\"body\"/></text></data><links><link rel=\"content-part\" uri=\"im:/content-part/fact\"/></links></object></group></idf>"
+],
+"TeaserText": [
+"Vendelboerne leverede overraskelsen og sikrede sig oprykning til Alka Superligaen"
+],
+"TagConcepts": [
+{
+"ConceptName": [
+"Borås Basket"
+],
+"uuid": [
+"ae47a368-051b-431b-a9dc-22d54e529e74"
+]
+}
+],
+"Categories": [
+{
+"ConceptName": [
+"Fotboll"
+],
+"uuid": [
+"d42fa0d4-c124-4825-8516-ab9904bd1650"
+]
+},
+{
+"ConceptName": [
+"Sport"
+],
+"uuid": [
+"c13b0852-254f-4eb0-9eab-cea7ddd3b683"
+]
+}
+],
+"Pubdate": [
+"2018-08-28T04:27:56Z"
+],
+"TeaserImageWidth": [
+"624"
+],
+"EveryUrlCollection": null,
+"contenttype": [
+"Article"
+],
+"ArticleDateline": [
+"Fodbold"
+],
+"ImageHeights": [
+"416",
+"3149"
+],
+"ArticleContentType": [
+"Nyhet"
+],
+"TeaserHeadline": [
+"Vendsyssel er superliga-klar"
+]
+}
+],
+"uuid": [
+"78a713d7-4746-4101-af28-c901006bb1cd"
+],
+"contenttype": [
+"List"
+]
+}
+}
+],
+"noVersions": 1
+}

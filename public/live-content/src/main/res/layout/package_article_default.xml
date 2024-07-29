@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingTop="24dp"
+    app:themeTouchColor="touchfeedback"
+    app:themeBackgroundColor="packageBackground"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/article_placement_number_background"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="numberBackground"/>
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/article_placement_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        app:themeKey="packageIndex"
+        app:layout_constraintBottom_toBottomOf="@+id/article_placement_number_background"
+        app:layout_constraintEnd_toEndOf="@+id/article_placement_number_background"
+        app:layout_constraintStart_toStartOf="@+id/article_placement_number_background"
+        app:layout_constraintTop_toTopOf="@+id/article_placement_number_background"
+        tools:text="1"
+        tools:textColor="#6aca25"/>
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/teaserHeadline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/article_placement_number_background"
+
+        app:themeKey="packageHeadline"
+        tools:text="Peter Ahlén sågar KFF efter genomklappningen, och ibland vill man ha mer än en rad text"
+        tools:textColor="#222222"/>
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/teaserLeadin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/teaserHeadline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/teaserHeadline"
+        app:layout_constraintTop_toBottomOf="@+id/teaserHeadline"
+        app:themeKey="packageBody"
+        tools:text="Kalmar FF stod för en imponerande kross mot Elfsborg på Guldfågeln. Och du anar inte vad som hände sen"
+        tools:textColor="#222222"/>
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/articleDateline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingRight="8dp"
+        app:layout_constraintStart_toStartOf="@+id/teaserLeadin"
+        app:layout_constraintTop_toBottomOf="@+id/teaserLeadin"
+        app:themeKey="packageDateline"
+        tools:text="SPORTEN"
+        tools:textColor="#8dc154"/>
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/publicationDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/articleDateline"
+        app:layout_constraintTop_toTopOf="@+id/articleDateline"
+        app:layout_goneMarginTop="8dp"
+        app:textFormat="isoDate"
+        app:themeKey="packageDate"
+        tools:text="4 minuter sedan"
+        tools:textColor="#7d7d7d"/>
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

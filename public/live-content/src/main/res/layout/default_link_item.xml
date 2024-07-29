@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/themeableLinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:themeTouchColor="interaction">
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity= "top"
+        android:paddingTop="7dp"
+        app:srcCompat="@drawable/link"
+        app:themeKey="linkItem" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        app:themeKey="linkItem"
+        tools:text="Länkad manuellt relaterad artikel med ovanligt lång titel för att se när den väl radbryter så det ser fint ut. Även om den " />
+</se.infomaker.iap.theme.view.ThemeableLinearLayout>

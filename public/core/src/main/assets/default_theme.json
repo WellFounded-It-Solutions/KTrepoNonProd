@@ -1,0 +1,43 @@
+{
+	"color": {
+		"highlight": "#333333",
+		"button": "#999999",
+		"indicatorSelected": "#000000",
+		"indicatorUnselected": "#cc000000",
+		"textDefault": "#000000",
+		"background": "#ffffff"
+	},
+	"image": {
+		"closeButton": "close_button"
+	},
+	"size": {
+		"default": 16,
+		"small": 12,
+		"medium": 20,
+		"large": 32
+	},
+	"font": {
+		"medium": "Roboto-Medium.ttf",
+		"regular": "Roboto-Regular.ttf",
+		"thin": "Roboto-Thin.ttf",
+		"light": "Roboto-Light.ttf",
+		"bold": "Roboto-Bold.ttf"
+	},
+	"text": {
+		"promotionTitle": {
+            "font": "bold",
+            "color": "textDefault",
+            "size": "large"
+        },
+		"promotionSubtitle": {
+            "font": "regular",
+            "color": "textDefault",
+            "size": "default"
+        },
+		"buttonText": {
+			"font": "regular",
+			"color": "textDefault",
+			"size": "default"
+		}
+	}
+}

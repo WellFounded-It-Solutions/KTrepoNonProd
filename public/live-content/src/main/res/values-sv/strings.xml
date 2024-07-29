@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_header">Vi upplever just nu tillfälliga störningar</string>
+    <string name="error_message">Vi arbetar på att åtgärda problemet.\nFörsök igen om en stund.</string>
+    <string name="lca_new_events">Nya händelser</string>
+    <string name="text_no_more_news">Inga fler artiklar att ladda</string>
+    <string name="share_with">Dela via</string>
+    <string name="sharing">Delar</string>
+    <string name="please_wait">Vänligen vänta</string>
+    <string name="an_error_occured">Ett fel inträffade</string>
+    <string name="failed_to_load_articles">Kunde inte hitta några artiklar</string>
+    <string name="archive_link">Se alla tidigare utgåvor här</string>
+    <string name="offline_banner_title">Din enhet saknar internetuppkoppling.</string>
+    <string name="offline_banner_subtitle">Senast uppdaterad %s.</string>
+    <string name="offline_banner_no_result">Senaste uppdateringsförsöket %s.</string>
+    <string name="bookmark_save_bookmark">Lägg till bokmärke</string>
+    <string name="bookmark_remove_bookmark">Ta bort bokmärke</string>
+    <string name="bookmark_action_reverse_save">Artikeln har bokmärkts</string>
+    <string name="bookmark_action_reverse_remove">Artikeln borttagen från bokmärken</string>
+    <string name="bookmark_undo_action">Ångra</string>
+    <string name="no_bookmarks_added">Inga sparade bokmärken</string>
+    <string name="no_bookmarks_added_description">Bokmärken sparas på din enhet och är tillgängliga även när du är offline.</string>
+    <plurals name="bookmarks_removed">
+        <item quantity="one">Raderade bokmärke</item>
+        <item quantity="other">Raderade %1$d bokmärken</item>
+    </plurals>
+
+    <string name="show_article_error">Artikeln kunde inte visas</string>
+    <string name="follow_confirmation">Du följer nu %s</string>
+    <string name="unfollow_confirmation">Du slutade följa %s</string>
+    <string name="ad_text">ANNONS</string>
+    <string name="no_comments">Inga kommentarer</string>
+    <string name="first_to_comment">Bli först att kommentera</string>
+    <plurals name="number_of_comments">
+        <item quantity="one">En kommentar</item>
+        <item quantity="other">%1$d kommentarer</item>
+    </plurals>
+    <plurals name="add_comment">
+        <item quantity="one">Lämna en kommentar</item>
+        <item quantity="other">Lämna en kommentar</item>
+    </plurals>
+    <plurals name="image_gallery_count">
+        <item quantity="zero">Inga bilder</item>
+        <item quantity="one">%1$d bild</item>
+        <item quantity="other">%1$d bilder</item>
+    </plurals>
+    <string name="change_text_size">Ändra textstorlek</string>
+    <string name="offline_warning_title">Hoppsan, ingen internetuppkoppling</string>
+    <string name="offline_warning_message">Du verkar vara offline. Så fort du är online igen, så kommer ditt innehåll automatiskt att uppdateras.</string>
+    <string name="offline_content_not_available">Inte tillgängligt just nu.</string>
+
+    <string name="stream_error_title">Oj då!</string>
+    <string name="stream_error_message">Det finns ett spöke här inne! \nDra ner för att ladda om sidan.</string>
+    <string name="stream_offline_error_title">Hoppsan, ingen internetuppkoppling</string>
+    <string name="stream_offline_error_message">Du verkar vara offline. Så fort du är online igen, så kommer ditt innehåll automatiskt att uppdateras.</string>
+
+    <string name="delete">Radera</string>
+    <string name="update">Ändra</string>
+    <string name="push">Notiser</string>
+    <string name="deleted_stream">Flöde raderat</string>
+    <string name="undo">Ångra</string>
+    <string name="concept_added">Följer ämne \"%s\"</string>
+    <string name="concept_added_action">Visa</string>
+    <string name="follow">Följ</string>
+    <string name="settings">Inställningar</string>
+    <string name="topic">Ämne</string>
+    <string name="cancel">Avbryt</string>
+    <string name="save">Spara</string>
+    <string name="add">Lägg till</string>
+    <string name="more_choices">Fler val</string>
+    <string name="back">Tillbaka</string>
+    <string name="search">Sök</string>
+    <string name="edit">Redigera</string>
+    <string name="picker_dialog_title">Välj sätt att se nyheterna</string>
+    <string name="location">Plats</string>
+    <string name="following">Följer</string>
+    <string name="notifications_activated">Notiser på</string>
+    <string name="notifications_deactivated">Notiser av</string>
+
+    <string name="loading_video">Laddar video…</string>
+
+    <string name="ad">Annons</string>
+
+    <string name="toolbar_search">Sök artiklar…</string>
+    <plurals name="bookmarks_selected">
+        <item quantity="one">%1$d vald</item>
+        <item quantity="other">%1$d valda</item>
+    </plurals>
+
+    <string name="add_feeds">Lägg till</string>
+    <string name="edit_feeds">Redigera val</string>
+
+    <string name="free_text_search_empty_message">Inga resultat hittades för ”%1$s”</string>
+
+    <string name="content_list_empty_title">Vi kunde inte hitta några artiklar om det här ämnet just nu</string>
+    <string name="content_list_empty_message">Det kan vara ett gammalt ämne som inte används längre eller ett helt nytt som inte har något innehåll ännu.</string>
+
+    <string name="click_to_view">Klicka för att öppna</string>
+</resources>

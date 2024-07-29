@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="#202020"
+    tools:orientation="vertical"
+    tools:parentTag="se.infomaker.iap.theme.view.ThemeableLinearLayout">
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/offline_banner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#e2e2e2"
+        android:textSize="16sp"
+        app:themeKey="offlineBannerText"
+        tools:text="Your device is offline. Last updated 10 minutes ago" />
+
+</merge>

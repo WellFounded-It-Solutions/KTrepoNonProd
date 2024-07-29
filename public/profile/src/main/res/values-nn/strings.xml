@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="failed_to_load_licenses">Kunne ikke laste inn lisenser</string>
+    <string name="user_login_prompt">Logg inn</string>
+    <string name="user_logout_prompt">Logg ut</string>
+    <string name="profile_acknowledge">Takk til</string>
+    <string name="profile_settings">Innstillinger</string>
+    <string name="profile_versions">Versjon</string>
+    <string name="profile_welcome">Velkomen</string>
+    <string name="profile_more">Mer</string>
+    <string name="profile_faq">Vanlege spørsmål</string>
+    <string name="profile_links">Lenkjer</string>
+    <string name="profile_contact_us">Kontakt oss</string>
+    <string name="profile_about">Om</string>
+    <string name="profile_privacypolicy">Personvernerklæring</string>
+    <string name="profile_licenses">Lisenser</string>
+</resources>

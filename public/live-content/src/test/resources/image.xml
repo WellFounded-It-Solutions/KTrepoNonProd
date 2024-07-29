@@ -1,0 +1,19 @@
+<object id="MTQ5LDE0Nyw2OCwxODE" type="x-im/image" uuid="a65611d9-5304-5a5a-862e-e5cd15802c9f">
+    <links>
+        <link rel="self" type="x-im/image" uri="im://image/55yYAeWS2VX02B7FDsftfcNKCcM.jpg" uuid="a65611d9-5304-5a5a-862e-e5cd15802c9f">
+            <data>
+                <width>4480</width>
+                <height>3001</height>
+                <text>This is the main text with formatting.</text>
+                <alttext>This is alternative text.</alttext>
+            </data>
+            <links>
+                <link title="2:1" rel="crop" type="x-im/crop" uri="im://crop/0/0.15858208955223882/0.67/0.4962686567164179"/>
+                <link title="3:2" rel="crop" type="x-im/crop" uri="im://crop/0/0.0037313432835820895/1/0.9944029850746269"/>
+                <link title="2:3" rel="crop" type="x-im/crop" uri="im://crop/0.0675/0/0.44625/1"/>
+                <link rel="author" uuid="70070400-2feb-4187-8a41-09d72600b2de" title="Kirsty Wigglesworth" type="x-im/author"/>
+                <link rel="author" uuid="70070400-2feb-4187-8a41-09d72600b123" title="Boaty McBoatFace" type="x-im/author"/>
+            </links>
+        </link>
+    </links>
+</object>

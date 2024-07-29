@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Themeable">
+        <attr name="themeKey" format="string" />
+        <attr name="themeTouchColor" format="string" />
+        <attr name="themeBackgroundColor" format="string" />
+        <attr name="themeSelectedColor" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableImageView">
+        <attr name="themeKey" />
+        <attr name="themeTouchColor" />
+        <attr name="themeTint" format="string" />
+        <attr name="fallbackImage" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableTextInputLayout">
+        <attr name="themeKey" />
+        <attr name="themeColor" format="string" />
+        <attr name="themeErrorColor" format="string" />
+        <attr name="themeBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableEditText">
+        <attr name="themeKey" />
+        <attr name="hintThemeColor" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableTextView">
+        <attr name="themeKey" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeTouchColor" />
+        <attr name="alignment" format="string" />
+        <attr name="themeLinkColor" format="string" />
+        <attr name="iapDrawableLeft" format="reference" />
+        <attr name="iapDrawableRight" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableButton">
+        <attr name="themeKey" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeTouchColor" />
+        <attr name="roundedCorners" format="boolean" />
+        <attr name="hasBorders" format="boolean" />
+        <attr name="themeBorderColor" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableMaterialButton">
+        <attr name="themeKey" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeTouchColor" />
+        <attr name="themeDisabledColor" format="string" />
+        <attr name="themeStrokeColor" format="string" />
+        <attr name="themeFallbackBackgroundColor" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableSwitch">
+        <attr name="themeKey" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableLinearLayout">
+        <attr name="themeTouchColor" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeFallbackBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableConstraintLayout">
+        <attr name="themeTouchColor" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeFallbackBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableCheckbox">
+        <attr name="themeKey" />
+        <attr name="themeTouchColor" />
+        <attr name="themeBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableFrameLayout">
+        <attr name="themeTouchColor" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeFallbackBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableTabLayout">
+        <attr name="themeKey" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeSelectedColor" />
+        <attr name="themeDeselectedColor" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableToolbar">
+        <attr name="themeBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableScrollView">
+        <attr name="themeTouchColor" />
+        <attr name="themeBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableRecyclerView">
+        <attr name="themeSpacing" format="string" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeFallbackBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeableCardView">
+        <attr name="themeTouchColor" />
+        <attr name="themeBackgroundColor" />
+        <attr name="themeFallbackBackgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ClickableAction">
+        <attr name="actionName" format="string" />
+        <attr name="actionParameters" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ThemeablePageIndicatorView">
+        <attr name="themeSelected" format="string" />
+        <attr name="themeUnselected" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="IMUrlButton">
+        <attr name="url" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RecycleViewAwareConstraintLayout">
+        <attr name="counterAppBarLayout" format="boolean"/>
+        <attr name="parallax" format="float" />
+        <attr name="fade" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollingOffsetCounterFrameLayout">
+        <attr name="counterOffsetIds" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomAdBannerBehavior">
+        <attr name="behavior_contentView" format="reference" />
+    </declare-styleable>
+</resources>

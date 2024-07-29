@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="2dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        app:themeBackgroundColor="defaultTeaserBackground">
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+            android:id="@+id/teaserImage"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"
+            app:bindKeyPath="teaserImageUuid"
+            app:cropKeyPath="teaserImageCrop"
+            app:heightKeyPath="teaserImageHeight"
+            app:type="hardCrop"
+            app:widthKeyPath="teaserImageWidth"
+            tools:background="#ccc"
+            android:gravity="center_vertical"
+            />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserHeadline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toStartOf="@id/teaserImage"
+            app:themeBackgroundColor="teaserHeadlineBackground"
+            app:themeKey="smallTeaserHeadline"
+            tools:text="Zlatan Ibrahimovic LA Galaxy: Zlatan joins LA Galaxy after Manchester United departure" />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserLeadin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:ellipsize="end"
+            app:themeBackgroundColor="teaserLeadinBackground"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintTop_toBottomOf="@id/teaserHeadline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/teaserImage"
+            app:themeKey="smallTeaserLeadin"
+            tools:text="Manchester United agreed to the mutual termination of Ibrahimovic's contract on Thursday, paving the way for the 36-yea..." />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/topBarrier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="teaserHeadline, teaserLeadin" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toBottomOf="@id/topBarrier">
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMFrameLayout
+                android:id="@+id/premiumOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:propertyKey="isPremium">
+
+                <se.infomaker.iap.theme.view.ThemeableImageView
+                    android:id="@+id/teaserPremiumIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:scaleType="centerInside"
+                    app:themeBackgroundColor="teaserSection"
+                    app:themeTint="teaserPremiumIcon"
+                    app:themeKey="teaserPremiumIcon"
+                    tools:background="#ccc"
+                    />
+            </se.infomaker.livecontentui.livecontentrecyclerview.view.IMFrameLayout>
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+                android:id="@+id/section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                app:themeBackgroundColor="teaserSectionBackground"
+                app:themeKey="smallTeaserSection"
+                app:suffixThemeKey="teaserPubDate"
+                tools:text="SPORT"
+                />
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+                android:id="@+id/publicationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:textFormat="isoDate"
+                app:themeBackgroundColor="teaserPubDateBackground"
+                app:themeKey="smallTeaserPubDate"
+                tools:text="2h ago" />
+        </LinearLayout>
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+</androidx.cardview.widget.CardView>

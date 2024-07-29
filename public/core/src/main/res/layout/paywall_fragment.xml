@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    app:themeBackgroundColor="provisioningInlinePaywallBackground"
+    app:themeFallbackBackgroundColor="provisioningBackground">
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:themeKey="provisioningBackground"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="#f0f0f0"
+            android:paddingBottom="30dp"
+            app:themeBackgroundColor="background">
+
+            <ViewFlipper
+                android:id="@+id/flipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ViewStub
+                    android:id="@+id/purchaseViewStub"
+                    android:inflatedId="@+id/purchaseView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout="@layout/purchase_view" />
+
+                <ViewStub
+                    android:id="@+id/purchaseViewNoLoginStub"
+                    android:inflatedId="@+id/purchaseViewNoLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout="@layout/purchase_view_no_login" />
+
+                <ViewStub
+                    android:id="@+id/purchaseViewLoginOnlyStub"
+                    android:inflatedId="@+id/purchaseViewLoginOnly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout="@layout/purchase_view_login_only" />
+
+                <ViewStub
+                    android:id="@+id/createAndLinkSubscriptionViewStub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inflatedId="@+id/createAndLinkSubscriptionView"
+                    android:layout="@layout/create_account_view" />
+
+                <FrameLayout
+                    android:id="@+id/linkAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </ViewFlipper>
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

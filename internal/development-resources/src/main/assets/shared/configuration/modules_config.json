@@ -1,0 +1,10 @@
+{
+  "modules": [
+    {
+      "id": "dev_module",
+      "title": "Dev Module",
+      "moduleName": "DevModule"
+    }
+  ]
+}
+

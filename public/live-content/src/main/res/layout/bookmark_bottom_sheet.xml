@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/action_group"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:constraint_referenced_ids="action_image,action_text" />
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/action_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/action_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@id/action_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/action_image"
+        app:layout_constraintTop_toTopOf="@id/action_image" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/cancel_group"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:constraint_referenced_ids="cancel_image,cancel_text" />
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/cancel_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/action_image" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/cancel_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:text="@android:string/cancel"
+        app:layout_constraintBottom_toBottomOf="@id/cancel_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cancel_image"
+        app:layout_constraintTop_toTopOf="@id/cancel_image" />
+
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

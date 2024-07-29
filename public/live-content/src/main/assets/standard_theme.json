@@ -1,0 +1,225 @@
+{
+	"color": {
+		"black": "#000000",
+		"white": "#ffffff",
+		"citrineWhite": "#fcf7e8",
+		"mineShaft": "#303030",
+		"supernova": "#ffc800",
+		"mineShaft75%": "#cc303030",
+		"goldDrop": "#F57E00",
+		"red": "#ff0d00",
+		"pomegranate": "#e5300f",
+		"silverChalice": "#b1b1b1",
+		"olive": "#947e00",
+		"dustyGray": "#949494",
+		"teaserHeadline": "mineShaft",
+		"adSender": "olive",
+		"rightNowTeaserLeftBorder": "pomegranate",
+		"rightNowTeaserHeadline": "mineShaft",
+		"rightNowTeaserHeadlinePrefix": "pomegranate",
+		"rightNowTeaserLeadin": "mineShaft",
+		"relatedTeaserHeadlinePrefix": "goldDrop",
+		"bylineTeaserHeadline": "teaserHeadline",
+		"breakingNewsTeaserHeadline": "white",
+		"breakingNewsTeaserHeadlineBackground": "breakingNewsTeaserMadmansRowBackground",
+		"teaserMadmansRow": "white",
+		"teaserByline": "bylineTeaserMadmansRowBackground",
+		"bylineTeaserSection": "bylineTeaserMadmansRowBackground",
+		"breakingNewsTeaserMadmansRow": "teaserMadmansRow",
+		"bylineTeaserMadmansRow": "teaserMadmansRow",
+		"teaserLeadin": "mineShaft",
+		"breakingNewsTeaserLeadin": "white",
+		"teaserMadmansRowBackground": "goldDrop",
+		"bylineTeaserMadmansRowBackground": "teaserMadmansRowBackground",
+		"breakingNewsTeaserMadmansRowBackground": "teaserMadmansRowBackground",
+		"teaserSection": "goldDrop",
+		"breakingNewsTeaserSection": "teaserSection",
+		"teaserPubDate": "dustyGray",
+		"breakingNewsTeaserPubDate": "silverChalice",
+		"bylineTeaserPubDate": "dustyGray",
+		"defaultTeaserBackground": "white",
+		"breakingNewsTeaserBackground": "black",
+		"bylineTeaserBackground": "citrineWhite",
+		"rightNowTeaserBackground": "defaultTeaserBackground",
+		"relatedTeaserBackground": "defaultTeaserBackground",
+		"adTeaserBackground": "defaultTeaserBackground",
+		"teaserAdBackground": "supernova",
+		"teaserAdTitle": "mineShaft",
+		"teaserPremiumIcon": "goldDrop",
+		"breakingNewsTeaserPremiumIcon": "teaserPremiumIcon",
+		"smallTeaserSection":"goldDrop"
+	},
+	"image": {
+		"teaserPremiumIcon":  "premium_icon",
+		"breakingNewsTeaserPremiumIcon":  "teaserPremiumIcon"
+	},
+	"size": {
+		"xx-small": 11,
+		"x-small": 12,
+		"small": 13,
+		"medium": 16,
+		"large": 20,
+		"x-large": 24,
+        "xx-large": 26
+	},
+	"font": {
+		"teaserBold": "Lato-Bold.ttf",
+		"teaserRegular": "Lato-Regular.ttf",
+		"teaserLightItalic": "Lato-LightItalic.ttf"
+	},
+	"text": {
+		"quickTeaserHeadline": {
+			"color": "quickTeaserHeadline",
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"quickTeaserHeadlinePrefix": {
+			"color": "quickTeaserHeadlinePrefix",
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"quickTeaserLeadin": {
+			"color": "quickTeaserLeadin",
+			"size": "medium",
+			"font": "teaserRegular"
+		},
+		"quickTeaserPubDate": {
+			"color": "quickTeaserPubDate",
+			"size": "small",
+			"font": "teaserRegular"
+		},
+		"quickTeaserSection": {
+			"color": "quickTeaserSection",
+			"size": "small",
+			"font": "teaserBold",
+			"transforms": ["uppercase"]
+		},
+		"smallTeaserHeadline": {
+			"color": "smallTeaserHeadline",
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"smallTeaserHeadlinePrefix": {
+			"color": "smallTeaserHeadlinePrefix",
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"smallTeaserLeadin": {
+			"color": "smallTeaserLeadin",
+			"size": "medium",
+			"font": "teaserRegular"
+		},
+		"smallTeaserPubDate": {
+			"color": "smallTeaserPubDate",
+			"size": "small",
+			"font": "teaserRegular"
+		},
+		"smallTeaserSection": {
+			"color": "smallTeaserSection",
+			"size": "small",
+			"font": "teaserBold",
+			"transforms": ["uppercase"]
+		},
+		"bylineTeaserMadmansRow": "teaserMadmansRow",
+		"breakingNewsTeaserMadmansRow": "teaserMadmansRow",
+		"teaserMadmansRow": {
+			"color": "teaserMadmansRow",
+			"size": "x-small",
+			"font": "teaserBold",
+			"transforms": ["uppercase"]
+		},
+		"rightNowTeaserHeadline": {
+			"color": "rightNowTeaserHeadline",
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"rightNowTeaserHeadlinePrefix": {
+			"color": "rightNowTeaserHeadlinePrefix",
+			"size": "medium",
+			"font": "teaserBold",
+			"transforms": ["uppercase"]
+		},
+		"relatedTeaserHeadline": {
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"relatedTeaserHeadlinePrefix": {
+			"color": "relatedTeaserHeadlinePrefix",
+			"size": "medium",
+			"font": "teaserBold"
+		},
+		"relatedTeaserSection": "teaserSection",
+		"relatedTeaserPubDate": "teaserPubDate",
+		"bylineTeaserHeadline": {
+			"color": "bylineTeaserHeadline",
+			"size": "x-large",
+			"font": "teaserBold"
+		},
+		"breakingNewsTeaserHeadline": {
+			"color": "breakingNewsTeaserHeadline",
+			"size": "x-large",
+			"font": "teaserBold"
+		},
+        "breakingNewsTeaserHeadlinePrefix": {
+          "color": "breakingNewsTeaserHeadline",
+          "size": "xx-large",
+          "font": "teaserBold"
+        },
+		"teaserHeadline": {
+			"color": "teaserHeadline",
+			"size": "large",
+			"font": "teaserBold"
+		},
+		"teaserLeadin": {
+			"color": "teaserLeadin",
+			"size": "medium",
+			"font": "teaserRegular"
+		},
+		"breakingNewsTeaserLeadin": {
+			"color": "breakingNewsTeaserLeadin",
+			"size": "medium",
+			"font": "teaserRegular"
+		},
+		"teaserByline": {
+			"color": "teaserByline",
+			"size": "x-large",
+			"font": "teaserLightItalic"
+		},
+		"teaserSection": {
+			"color": "teaserSection",
+			"size": "small",
+			"font": "teaserBold",
+			"transforms": ["uppercase"]
+		},
+		"breakingNewsTeaserSection": "teaserSection",
+		"bylineTeaserSection": {
+			"color": "bylineTeaserSection",
+			"size": "small",
+			"font": "teaserBold",
+			"transforms": ["uppercase"]
+		},
+		"teaserPubDate": {
+			"color": "teaserPubDate",
+			"size": "small",
+			"font": "teaserRegular"
+		},
+		"breakingNewsTeaserPubDate": "teaserPubDate",
+		"teaserAdTitle": {
+			"color": "teaserAdTitle",
+			"size": "xx-small",
+			"font": "teaserRegular",
+			"transforms": ["uppercase"]
+		},
+		"adSender": {
+			"color": "adSender",
+			"size": "small",
+			"font": "teaserRegular",
+			"transforms": ["uppercase"]
+		},
+		"rightNowTeaserLeadin": {
+			"color": "rightNowTeaserLeadin",
+			"size": "medium",
+			"font": "teaserRegular"
+		}
+	}
+}

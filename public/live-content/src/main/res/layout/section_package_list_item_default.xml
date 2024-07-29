@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="match_parent"
+    app:themeTouchColor="listPackageArticleTouchFeedback">
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+        android:id="@+id/imageId"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:scaleType="centerCrop"
+        app:cropKeyPath="imageCrop2to3"
+        app:heightKeyPath="imageHeight"
+        app:widthKeyPath="imageWidth"
+        app:bindKeyPath="imageId"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/section_package_list_item_gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/teaserHeadline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:themeKey="listPackageArticleHeadline"
+        tools:text="KLART: Hon blir nästa artist på Sommar-torsdagarna"
+        tools:textColor="#ffffff"
+        tools:textSize="15sp"
+        tools:textStyle="bold" />
+
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

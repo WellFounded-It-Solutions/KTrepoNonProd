@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:function="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/article_list_item"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:minHeight="@dimen/item_height"
+              android:background="?attr/selectableItemBackground"
+              android:orientation="vertical"
+              android:padding="4dp">
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.ACImageView
+        android:id="@+id/imageId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        function:aspectRatio="3:2"
+        function:fallbackDrawable="@android:color/black"
+        function:placeholderDrawable="@color/placeholderColor"
+        function:textFormat="imageUuid"
+        function:type="hardCrop"
+        tools:src="@color/accent"/>
+
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.ACTextView
+        android:id="@+id/teaserHeadline"
+        style="@style/article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:layout_marginTop="4dp"
+        tools:text="New Text on two rows"/>
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.ACTextView
+        android:id="@+id/publicationDate"
+        style="@style/article_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        function:textFormat="isoDate"
+        tools:text="Idag 10.45"/>
+</LinearLayout>

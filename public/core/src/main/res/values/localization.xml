@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="webview_error_title">Oops!</string>
+    <string name="webview_error_message">It seems like you are not connected to the Internet. Check your connection and try again.</string>
+    <string name="webview_error_unknown_error">Unknown error</string>
+    <string name="webview_error_host_lookup">Server or proxy hostname lookup failed</string>
+    <string name="webview_error_unsupported_auth_scheme">Unsupported authentication scheme (not basic or digest)</string>
+    <string name="webview_error_authentication">User authentication failed on server</string>
+    <string name="webview_error_proxy_authentication">User authentication failed on proxy</string>
+    <string name="webview_error_connect">Failed to connect to the server</string>
+    <string name="webview_error_io">Failed to read or write to the server</string>
+    <string name="webview_error_timeout">Connection timed out</string>
+    <string name="webview_error_redirect_loop">Too many redirects</string>
+    <string name="webview_error_unsupported_scheme">Unsupported URI scheme</string>
+    <string name="webview_error_failed_ssl_handshake">Failed to perform SSL handshake</string>
+    <string name="webview_error_bad_url">Malformed URL</string>
+    <string name="webview_error_file">Generic file error</string>
+    <string name="webview_error_file_not_found">File not found</string>
+    <string name="webview_error_too_many_requests">Too many requests during this load</string>
+</resources>

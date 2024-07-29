@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="2dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+            android:id="@+id/imageId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:aspectRatio="2:1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:placeholderDrawable="@android:color/darker_gray"
+            tools:layout_height="300dp"
+            tools:background="#ff0000"
+            app:textFormat="imageUuid"
+            app:type="hardCrop"/>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingMultiplier="1.02"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageId"
+            app:themeKey="searchHeadline"
+            tools:text="Headline"
+            />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserLeadin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="left"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/teaserHeadline"
+            app:themeKey="listLeadin"
+            tools:text="The brown fox jumps over the lazy dog"/>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/articleDateline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:paddingRight="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/publicationDate"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/teaserLeadin"
+            app:themeKey="searchDateline"
+            tools:text="SPORTEN"
+            tools:textColor="#8dc154"/>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/publicationDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_goneMarginLeft="16dp"
+            app:layout_goneMarginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/articleDateline"
+            app:layout_constraintTop_toTopOf="@+id/articleDateline"
+            app:textFormat="isoDate"
+            app:themeKey="searchDate"
+            tools:text="4 minuter sedan"
+            tools:textColor="#7d7d7d"/>
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+</androidx.cardview.widget.CardView>

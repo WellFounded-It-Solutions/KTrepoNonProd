@@ -1,0 +1,214 @@
+{
+  "List": {
+    "contentId": {
+      "name": "uuid"
+    },
+    "contentType": {
+      "name": "contenttype"
+    },
+    "articles": {
+      "name": "ArticleRelations",
+      "propertyMapReference": "Article"
+    },
+    "type": {
+      "name": "type"
+    }
+  },
+  "Article": {
+    "siteUrl": {
+      "name": "EveryUrlCollection"
+    },
+    "ArticleHeadline": {
+      "name": "ArticleHeadline"
+    },
+    "articleContent": {
+      "name": "ArticleContent"
+    },
+    "articleContentType": {
+      "name": "ArticleContentType"
+    },
+    "showContentExplanation": {
+      "name": "ShowContentExplanation"
+    },
+    "articleDateline": {
+      "name": "ArticleDateline"
+    },
+    "imageWidth": {
+      "name": "ImageWidths"
+    },
+    "author": {
+      "name": "AuthorConcepts",
+      "propertyMapReference": "Author"
+    },
+    "categories": {
+      "name": "Categories",
+      "propertyMapReference": "FollowableConcept"
+    },
+    "tags": {
+      "name": "TagConcepts",
+      "propertyMapReference": "FollowableConcept"
+    },
+    "geometries": {
+      "name": "Geometries",
+      "propertyMapReference": "FollowableConcept"
+    },
+    "stories": {
+      "name": "Stories",
+      "propertyMapReference": "FollowableConcept"
+    },
+    "contentType": {
+      "name": "contenttype"
+    },
+    "priority": {
+      "name": "NewsValue"
+    },
+    "contentId": {
+      "name": "uuid"
+    },
+    "imageId": {
+      "name": "ImageUuids"
+    },
+    "newsML": {
+      "name": "ArticleBodyRaw"
+    },
+    "imageHeight": {
+      "name": "ImageHeights"
+    },
+    "publicationDate": {
+      "name": "Pubdate"
+    },
+    "teaserImageCrop": {
+      "name": "TeaserImageCrop2to1"
+    },
+    "teaserImageHeight": {
+      "name": "TeaserImageHeight"
+    },
+    "teaserImageWidth": {
+      "name": "TeaserImageWidth"
+    },
+    "teaserImageUuid": {
+      "name": "TeaserImageUuid"
+    },
+    "teaserLeadin": {
+      "name": "TeaserText",
+      "transforms": [
+        "formatReplace"
+      ]
+    },
+    "teaserHeadline": {
+      "name": "TeaserHeadline",
+      "transforms": [
+        "formatReplace"
+      ]
+    },
+    "teaserText": {
+      "name": "TeaserText"
+    },
+    "relatedLinks": {
+      "name": "RelatedLinks"
+    }
+  },
+  "TeaserArticle": {
+    "contentId": {
+      "name": "uuid"
+    },
+    "teaserHeadline": {
+      "name": "TeaserVignette",
+      "transforms": [
+        "formatReplace"
+      ]
+    },
+    "publicationDate": {
+      "name": "Pubdate"
+    },
+    "teaserLeadin": {
+      "name": "TeaserHeadline",
+      "transforms": [
+        "formatReplace"
+      ]
+    },
+    "contentType": {
+      "name": "contenttype"
+    },
+    "articleContent": {
+      "name": "ArticleContent"
+    },
+    "articleContentType": {
+      "name": "ArticleContentType"
+    },
+    "showContentExplanation": {
+      "name": "ShowContentExplanation"
+    },
+    "imageWidth": {
+      "name": "ImageWidths"
+    },
+    "imageHeight": {
+      "name": "ImageHeights"
+    },
+    "imageId": {
+      "name": "ImageUuids"
+    }
+  },
+  "Package": {
+    "pubStart": {
+      "name": "PubStart"
+    },
+    "contentId": {
+      "name": "uuid"
+    },
+    "list": {
+      "name": "ListRelation",
+      "propertyMapReference": "List"
+    },
+    "contentType": {
+      "name": "contenttype"
+    },
+    "category": {
+      "name": "category"
+    },
+    "coverArticle": {
+      "name": "CoverRelation",
+      "propertyMapReference": "TeaserArticle"
+    }
+  },
+  "Author": {
+    "contentId": {
+      "name": "uuid"
+    },
+    "contentType": {
+      "name": "contenttype"
+    },
+    "email": {
+      "name": "Email"
+    },
+    "name": {
+      "name": "ConceptName"
+    }
+  },
+  "FollowableConcept": {
+    "contentId": {
+      "name": "uuid"
+    },
+    "name": {
+      "name": "ConceptName"
+    }
+  },
+  "SlimPackage": {
+    "contentId": {
+      "name": "uuid"
+    },
+    "pubStart": {
+      "name": "PubStart"
+    },
+    "contentType": {
+      "name": "contenttype"
+    },
+    "category": {
+      "name": "category"
+    },
+    "coverArticle": {
+      "name": "CoverRelation",
+      "propertyMapReference": "TeaserArticle"
+    }
+  }
+}

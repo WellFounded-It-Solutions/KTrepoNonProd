@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/settings_receive_notifications"
+        app:iconSpaceReserved="false">
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_receive_push"
+            android:summary="@string/settings_push_info"
+            android:title="@string/settings_receive_push"
+            app:iconSpaceReserved="false" />
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_push_sound"
+            android:summary="@string/settings_push_sound_info"
+            android:title="@string/settings_push_sound"
+            app:iconSpaceReserved="false" />
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_push_vibrate"
+            android:summary="@string/settings_push_vibrate_info"
+            android:title="@string/settings_push_vibrate"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_category_general"
+        app:iconSpaceReserved="false">
+        <se.infomaker.frt.ui.fragment.ThemeableCheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_prefetch"
+            android:summary="@string/settings_content_prefetching"
+            android:title="@string/settings_content_prefetching_info"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="pref_build_version"
+            android:title="@string/settings_version"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:key="pref_privacy_policy"
+            android:title="@string/settings_policytitle"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

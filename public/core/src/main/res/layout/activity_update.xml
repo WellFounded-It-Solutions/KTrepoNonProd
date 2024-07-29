@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:themeBackgroundColor="appUpdateBackground">
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="appUpdateBackground" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_max="320dp"
+        app:themeKey="appUpdateRecommendedTitle"
+        tools:text="Det finns nya uppdateringar" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/update_button"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:themeKey="appUpdateRecommendedDescription"
+        tools:text="För att få du ska få den bästa upplevelsen rekommenderar vi att du uppdaterar nu." />
+
+    <se.infomaker.iap.theme.view.ThemeableMaterialButton
+        android:id="@+id/update_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/later_button"
+        app:layout_constraintEnd_toEndOf="@+id/description"
+        app:layout_constraintStart_toStartOf="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:themeBackgroundColor="appUpdateUpdateButtonBackground"
+        app:themeFallbackBackgroundColor="#191919"
+        app:themeKey="appUpdateUpdateButton"
+        tools:background="#191919"
+        tools:text="Uppdatera nu"
+        tools:textColor="#FFFFFF" />
+
+    <se.infomaker.iap.theme.view.ThemeableMaterialButton
+        android:id="@+id/later_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="13dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/update_button"
+        app:layout_constraintStart_toStartOf="@+id/update_button"
+        app:layout_constraintTop_toBottomOf="@+id/update_button"
+        app:themeBackgroundColor="appUpdateLaterButtonBackground"
+        app:themeStrokeColor="appUpdateLaterButtonBorder"
+        app:strokeWidth="2dp"
+        app:themeFallbackBackgroundColor="#EEEEEE"
+        app:themeKey="appUpdateLaterButton"
+        tools:background="#EEEEEE"
+        tools:text="Senare" />
+
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

@@ -1,0 +1,50 @@
+<object id="imagegallery-1d2d895b2fc6f0a3ef319811e56f7fec" type="x-im/imagegallery">
+    <data>
+        <text>Titel för mitt gallery</text>
+
+    </data>
+    <links>
+        <link rel="self" type="x-im/image" uri="im://image/H0OGPVaoIlywkCYGP4-f02fxqd4.jpg" uuid="76d676a8-40bc-5d36-ba2b-0ce46afa8dbc">
+            <data>
+                <width>612</width>
+                <height>408</height>
+                <text/>
+                <alttext/>
+            </data>
+        </link>
+        <link rel="image" type="x-im/image" uri="im://image/HARQoWMVRc4gvphPVeVMEgVLLaM.jpg" uuid="a0fed66a-e870-5916-b554-f492c7f95e8e">
+            <data>
+                <text>Kattunge Liten Gullig Sover Rosa</text>
+                <alttext>This is the alttext</alttext>
+                <height>480</height>
+                <width>600</width>
+            </data>
+            <links>
+                <link rel="author" uuid="00000000-0000-0000-0000-000000000000" title="Tradera" type="x-im/author"/>
+            </links>
+        </link>
+        <link rel="image" type="x-im/image" uri="im://image/y2YA7-dtOO1Wv_hnv7MVp9VfOdg.jpg" uuid="499e9807-c671-5977-b15a-ab3d2a780b3d">
+            <data>
+                <text>Bra tips när du väljer kattunge</text>
+                <alttext>This is the alttext</alttext>
+                <height>925</height>
+                <width>1280</width>
+            </data>
+            <links>
+                <link title="16:9" rel="crop" type="x-im/crop" uri="im://crop/0/0.07879924953095685/0.755/0.6322701688555347"/>
+                <link rel="author" uuid="00000000-0000-0000-0000-000000000000" title="Försäkra Katten" type="x-im/author"/>
+            </links>
+        </link>
+        <link rel="image" type="x-im/image" uri="im://image/PvE2MgTHxSN9_r4d2pQJsle9WJ4.jpg" uuid="ec29ebe9-3f15-5470-bbd7-9f61bc883278">
+            <data>
+                <text>Hur man uppfostrar en kattunge</text>
+                <alttext>This is the alttext</alttext>
+                <height>307</height>
+                <width>460</width>
+            </data>
+            <links>
+                <link rel="author" uuid="00000000-0000-0000-0000-000000000000" title="ssscat.se" type="x-im/author"/>
+            </links>
+        </link>
+    </links>
+</object>

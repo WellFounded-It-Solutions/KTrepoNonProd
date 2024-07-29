@@ -1,0 +1,15 @@
+<manifest package="com.navigaglobal.mobile.ad.googlemobileads"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
+    <application>
+
+        <provider
+            android:exported="false"
+            android:authorities="${applicationId}.AdProvider.PlayServicesProvider"
+            android:name="se.infomaker.playservicesprovider.GoogleMobileAdsAdProvider" />
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+    </application>
+</manifest>

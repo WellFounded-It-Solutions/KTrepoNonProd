@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_close">Stäng navigeringspanelen</string>
+    <string name="drawer_open"> Öppna navigeringspanelen</string>
+    <string name="start_page">Startsida</string>
+    <string name="retry">Försök igen</string>
+    <string name="could_not_verify_paywall">Kunde inte verfifiera rättigheter att se innehållet.</string>
+    <string name="no_access_to_content_toast">Du har inte längre tillgång till innehållet i appen!</string>
+
+    <string name="no_phone_app">Ingen telefonapp tillgänglig</string>
+
+    <string name="generic_app_name">appen</string>
+    <string name="initial_title">Tack för att ni använde {{APP.name}}!</string>
+    <string name="initial_message">Gillar du {{APP.name}}?</string>
+    <string name="initial_positive">Ja</string>
+    <string name="initial_negative">Nej</string>
+    <string name="negative_feedback_prompt_title">Vi tycker det är synd att du inte gillar {{APP.name}}</string>
+    <string name="negative_feedback_prompt_body">Kan du berätta för oss varför du inte är nöjd?</string>
+    <string name="negative_feedback_prompt_positive_button">Ja</string>
+    <string name="negative_feedback_prompt_negative_button">Nej</string>
+    <string name="no_email_client_available">Kunde inte hitta en mailklient att använda för att skriva mail, installera en och försök igen.</string>
+    <string name="intent_chooser">Skicka med…</string>
+    <string name="option_play">Din åsikt uppskattas!</string>
+    <string name="option_playstore">Vill du betygsätta {{APP.name}}?</string>
+    <string name="rate_button_title">Ja</string>
+    <string name="never_button_title">Aldrig</string>
+    <string name="snooze_button_title">Senare</string>
+    <string name="email_feedback_subject">Feedback för {{APP.name}}</string>
+    <string name="email_feedback_body">\n\nApp: {{APP.name}}\nVersion: {{APP.versionName}} ({{APP.versionCode}}) \nOS: Android {{APP.sdkRelease}} \nDevice: {{APP.manufacturer}} {{APP.model}}</string>
+
+    <string name="settings_download_info">Priserna för nedladdning kan variera beroende på abonnemang</string>
+    <string name="settings_download_short">Tillåt nedladdning över mobilt nätverk</string>
+    <string name="settings_category_download">Bakgrundsnedladdning</string>
+    <string name="http_action_failure">Något gick fel, kolla din internetuppkoppling och testa igen.</string>
+
+    <string name="default_app_update_obsolete_title">Tack för att du har använt appen</string>
+    <string name="default_app_update_obsolete_description">Det har varit en fantastisk resa, men tyvärr kommer vi nu sluta att uppdatera appen.</string>
+    <string name="default_app_update_required_title">Din app behöver uppdateras</string>
+    <string name="default_app_update_required_description">För att kunna använda appen behöver du installera de senaste uppdateringarna.</string>
+    <string name="default_app_update_recommended_title">Det finns nya uppdateringar</string>
+    <string name="default_app_update_recommended_description">För att få du ska få den bästa upplevelsen rekommenderar vi att du uppdaterar nu.</string>
+    <string name="default_app_update_button_text">Uppdatera nu</string>
+    <string name="default_app_update_later_button_text">Senare</string>
+
+    <string name="photographer">Foto:</string>
+
+    <string name="per_month">per månad</string>
+    <string name="per_2_months">varannan månad</string>
+    <string name="per_3_months">var tredje månad</string>
+    <string name="per_6_months">per halvår</string>
+    <string name="per_year">per år</string>
+    <string name="cancel_suscription_note">Du kan när som helst avsluta din prenumeration.</string>
+    <string name="default_purchase_title">Prenumerera nu.</string>
+    <string name="already_customer">Är du redan kund hos oss?</string>
+    <string name="logout_button">Logga ut</string>
+    <string name="login">Logga in</string>
+    <string name="activate_subscription">Koppla min prenumeration</string>
+    <string name="default_login_title" >Logga in.</string>
+    <string name="login_button">Logga in</string>
+    <string name="form_password">Lösenord</string>
+    <string name="forgot_password">Glömt lösenordet</string>
+    <string name="create_account">Skapa ditt konto.</string>
+    <string name="create_account_description">Du behöver ett konto för att logga in på webben och andra plattformar.</string>
+    <string name="create_account_button">Skapa konto</string>
+    <string name="email">E-post</string>
+    <string name="repeat_password">Repetera lösenord</string>
+    <string name="don_t_want_an_account">Vill du inte skapa konto?</string>
+    <string name="skip">Hoppa över</string>
+    <string name="need_to_provide_password">Du måste ange ett lösenord!</string>
+    <string name="passwords_does_not_match">Lösenorden stämmer inte överens</string>
+    <string name="provide_valid_email">Ange en giltig e-post</string>
+    <string name="are_you_sure">Är du säker?</string>
+    <string name="confirm_opt_out_message">Du kommer inte kunna använda din prenumeration på webben.</string>
+    <string name="introductoryPriceFormat">%2$d dagar för %1$s</string>
+    <string name="introductoryPriceWithPeriodsFormat">%1$s för %2$d dagar, de första %3$d dagarna</string>
+    <string name="therafterFormat">Därefter %1$s %2$s.</string>
+    <string name="or">eller</string>
+    <string name="already_subscribed_text">Har du redan en prenumeration av tidningen kan du koppla den till appen.</string>
+    <string name="purchase_leadin">Välkommen! Du har bara några få steg kvar. Sen kan du läsa nyheter på ett helt nytt sätt.</string>
+    <string name="already_customer_title">Är du redan kund hos oss?</string>
+    <string name="subscription_expired">Din prenumeration har gått ut.</string>
+    <string name="failed_to_open_uri">Kunde inte öppna uri</string>
+    <string name="subscription_renewal_message">Du behöver vara inloggad för att få tillgång till detta innehåll.</string>
+    <string name="subscription_renewal_message_login_only">Kontakta kundtjänst för att återupptå din prenumneration</string>
+    <string name="locked_article">Du behöver vara prenumerant för att få tillgång till detta innehåll.</string>
+    <string name="locked_article_login_only">Du behöver vara inloggad för att få tillgång till detta innehåll.</string>
+    <string name="already_subscribed_text_login_only">Saknar du prenumeration? Kontakta kundtjänst för att bli kund hos oss</string>
+    <string name="continue_with">Fortsätt med:</string>
+    <string name="other_account_login">Logga in med ett annat konto</string>
+    <plurals name="days_format">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dagar</item>
+    </plurals>
+    <string name="login_type_error">Något gick fel, kolla din internetuppkoppling och testa igen.</string>
+
+    <string name="my_profile_log_in">Logga in</string>
+    <string name="my_profile_log_out">Logga ut</string>
+    <string name="my_profile_settings">Inställningar</string>
+    <string name="my_profile_welcome">Välkommen</string>
+    <string name="setting_open_source_licenses">Open source-licenser</string>
+    <string name="settings_background_info">Tillåt appen att automatiskt ladda ner nya utgåvor</string>
+    <string name="settings_category_epaper">ePaper</string>
+    <string name="settings_category_general">Allmänt</string>
+    <string name="settings_download_background">Bakgrundsnedladdning</string>
+    <string name="settings_download_cellular_info">Priserna för nedladdning kan variera beroende på abonnemang</string>
+    <string name="settings_download_cellular_short">Tillåt nedladdning över mobilt nätverk</string>
+    <string name="settings_issues_keep">Antal utgåvor att spara</string>
+    <string name="settings_receive_notifications">Notiser</string>
+    <string name="settings_push_info">Tillåt appen att ta emot push-notiser</string>
+    <string name="settings_push_sound">Ljud</string>
+    <string name="settings_push_sound_info">Spela ljud när appen tar emot notiser</string>
+    <string name="settings_push_vibrate">Vibrera</string>
+    <string name="settings_push_vibrate_info">Vibrera när appen tar emot notiser</string>
+    <string name="settings_receive_push">Push</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_policytitle">Integritetspolicy</string>
+    <string name="array_amount_save_all">Spara alla</string>
+    <string name="my_profile_faqtitle">Vanliga frågor</string>
+    <string name="settings_content_prefetching">Förbättrad upplevelse offline</string>
+    <string name="settings_content_prefetching_info">Hämta nytt innehåll när appen är i bakgrunden</string>
+
+    <string name="done_button">Klar</string>
+
+    <string name="now">Nu</string>
+    <string name="oneMinuteAgo">En minut sedan</string>
+    <string name="today_format">Idag %1$s</string>
+    <string name="minutes_ago">%1$d minuter sedan</string>
+
+
+    
+    <string name="provisioning_subscription_ended">Du kommer inte åt det här innehållet.</string>
+    <string name="provisioning_no_subscription_contact_customer_service">Du behöver uppgradera din prenumeration till Digital Plus.</string>
+    <string name="provisioning_no_subscription_contact_customer_service_body">Gör det själv på Mina sidor eller kontakta Kundcenter för hjälp.</string>
+    <string name="provisioning_customer_service_button">Uppgradera här</string>
+
+    
+
+    
+
+
+
+
+
+
+</resources>

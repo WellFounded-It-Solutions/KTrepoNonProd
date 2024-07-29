@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp"
+    android:orientation="vertical">
+
+    <se.infomaker.iap.theme.view.ThemeableLinearLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:themeBackgroundColor="prayerTimeBackground">
+
+        <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+            android:id="@+id/prayer_time_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:themeBackgroundColor="prayerTimeBackground">
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/time"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:themeKey="prayerTimeName"
+                tools:text="Fajir" />
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/time"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/period"
+                app:layout_constraintStart_toEndOf="@id/name"
+                app:layout_constraintTop_toTopOf="parent"
+                app:themeKey="prayerTimeClock"
+                tools:text="4.39" />
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/period"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/icon"
+                app:layout_constraintStart_toEndOf="@id/time"
+                app:layout_constraintTop_toTopOf="parent"
+                app:themeKey="prayerTimeAmPm"
+                tools:text="AM" />
+
+            <se.infomaker.iap.theme.view.ThemeableImageView
+                android:id="@+id/icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/period"
+                app:layout_constraintTop_toTopOf="parent"
+                app:themeKey="sun" />
+
+        </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+
+        <se.infomaker.iap.theme.view.ThemeableLinearLayout
+            android:id="@+id/sub_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:themeBackgroundColor="prayerTimeBackground"
+            android:paddingBottom="4dp">
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/countdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="8dp"
+                app:themeKey="prayerTimeUntilPrayer"
+                tools:text="Year: 1993" />
+        </se.infomaker.iap.theme.view.ThemeableLinearLayout>
+    </se.infomaker.iap.theme.view.ThemeableLinearLayout>
+</se.infomaker.iap.theme.view.ThemeableLinearLayout>

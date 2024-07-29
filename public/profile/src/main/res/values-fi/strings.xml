@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_login_prompt">Kirjaudu</string>
+    <string name="user_logout_prompt">Kirjaudu ulos</string>
+    <string name="profile_settings">Asetukset</string>
+    <string name="profile_versions">Versio</string>
+    <string name="profile_licenses">Lisenssit</string>
+    <string name="my_profile_welcome">Tervetuloa</string>
+
+    <string name="failed_to_load_licenses">Lisenssitietojen lataaminen epäonnistui</string>
+    <string name="my_profile_log_out_message">Oletko varma, että haluat kirjautua ulos?</string>
+    <string name="my_profile_cancel">Peru</string>
+    <string name="profile_licenses_header"></string>
+    <string name="profile_acknowledge"></string>
+    <string name="change_consent_button">Muuta suostumusta</string>
+    <string name="profile_welcome">Tervetuloa </string>
+    <string name="profile_more">Lisää</string>
+    <string name="profile_faq">Usein kysytyt kysymykset</string>
+    <string name="profile_links">Linkit</string>
+    <string name="profile_contact_us">Yhteystiedot</string>
+    <string name="profile_about"></string>
+    <string name="profile_privacypolicy">Tietosuoja</string>
+</resources>

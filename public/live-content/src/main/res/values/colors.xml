@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent_app_bar_background_color">#66000000</color>
+
+    <color name="placeholderColor">#dcdcdc</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

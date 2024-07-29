@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <View
+        android:id="@+id/slideshowBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="horizontal" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <se.infomaker.coremedia.slideshow.imagezoom.ImageViewTouch
+        android:id="@+id/testImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:layout_height="200dp"
+        tools:layout_width="200dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/placeholderWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/placeholderImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/placeholderYEnd"
+            app:layout_constraintEnd_toStartOf="@+id/placeholderXEnd"
+            app:layout_constraintStart_toStartOf="@+id/placeholderXStart"
+            app:layout_constraintTop_toTopOf="@+id/placeholderYStart"
+            tools:background="#90ffffff" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/placeholderXStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/placeholderXEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/placeholderYStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/placeholderYEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    app:cardCornerRadius="0dp">
+
+    <se.infomaker.iap.theme.view.ThemeableFrameLayout
+        android:id="@+id/collapsed_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:themeBackgroundColor="expandableSectionBackgroundCollapsed"
+        app:themeFallbackBackgroundColor="expandableSectionBackground">
+
+        <se.infomaker.iap.theme.view.ThemeableImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/arrow_down_24"
+            app:themeTint="expandableSectionIconExpanded" />
+    </se.infomaker.iap.theme.view.ThemeableFrameLayout>
+
+    <se.infomaker.iap.theme.view.ThemeableFrameLayout
+        android:id="@+id/expanded_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:themeBackgroundColor="expandableSectionBackgroundExpanded"
+        app:themeFallbackBackgroundColor="expandableSectionBackground">
+
+        <se.infomaker.iap.theme.view.ThemeableImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/arrow_up_24"
+            app:themeTint="expandableSectionIconCollapsed" />
+    </se.infomaker.iap.theme.view.ThemeableFrameLayout>
+
+</se.infomaker.iap.theme.view.ThemeableCardView>

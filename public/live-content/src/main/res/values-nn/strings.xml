@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_header">Ooops!</string>
+    <string name="error_message">Er det fjøsnissen som har rota det til? \nTrekk ned for å friska opp sida.</string>
+    <string name="lca_new_events">Nye hendingar</string>
+    <string name="text_no_more_news">Ingen fleire nyhende</string>
+    <string name="share_with">Del med</string>
+    <string name="sharing">Deler</string>
+    <string name="please_wait">Vent litt</string>
+    <string name="an_error_occured">Det oppstod ein feil</string>
+    <string name="failed_to_load_articles">Klarte ikkje å lasta inn artiklar</string>
+    <string name="archive_link">Les tidlegare utgåver</string>
+    <string name="offline_banner_title">Eininga di er fråkopla.</string>
+    <string name="offline_banner_subtitle">Sist oppdatert %s</string>
+    <string name="offline_banner_no_result">Siste oppdateringsforsøk %s</string>
+    <string name="offline_banner_merged_title_and_subtitle" translatable="false">%s %s</string>
+    <string name="bookmark_save_bookmark">Legg til bokmerke</string>
+    <string name="bookmark_remove_bookmark">Fjern bokmerke</string>
+    <string name="bookmark_action_reverse_save">Lagt til bokmerke for artikkel</string>
+    <string name="bookmark_action_reverse_remove">Artikkel fjerna frå bokmerka</string>
+    <string name="bookmark_undo_action">Angra</string>
+    <string name="no_bookmarks_added">Ingen bokmerke lagde til</string>
+    <string name="no_bookmarks_added_description">Bokmerke blir lagra på eininga og kan lesast sjølv om du ikkje har nett.</string>
+    <plurals name="bookmarks_removed">
+        <item quantity="one">Fjerna bokmerke</item>
+        <item quantity="other">Fjerna %1$d bokmerke</item>
+    </plurals>
+
+    <string name="show_article_error">Artikkelen kunne ikkje vises</string>
+    <string name="follow_confirmation">Du følgjer no %s</string>
+    <string name="unfollow_confirmation">Du har slutta å følgje %s</string>
+    <string name="ad_text">ANNONSE</string>
+    <string name="no_comments">Ingen kommentarar</string>
+    <string name="first_to_comment">Bli den første til å kommentere</string>
+    <plurals name="number_of_comments">
+        <item quantity="one">Ein kommentar</item>
+        <item quantity="other">%1$d kommentarar</item>
+    </plurals>
+    <plurals name="add_comment">
+        <item quantity="one">Legg igjen ein kommentar</item>
+        <item quantity="other">Legg igjen ein kommentar</item>
+    </plurals>
+    <plurals name="image_gallery_count">
+        <item quantity="zero">Ingen bilete</item>
+        <item quantity="one">%1$d bilete</item>
+        <item quantity="other">%1$d bilete</item>
+    </plurals>
+    <string name="change_text_size">Endra tekststorleik</string>
+
+    <string name="delete">Slette</string>
+    <string name="update">Endre</string>
+    <string name="push">Notisar</string>
+    <string name="deleted_stream">Strøm sletta</string>
+    <string name="undo">Angre</string>
+    <string name="concept_added">Følgjer emne \"%s\"</string>
+    <string name="concept_added_action">Vise</string>
+    <string name="settings">Innstillingar</string>
+    <string name="topic">Emne</string>
+    <string name="cancel">Avbryt</string>
+    <string name="save">Lagre</string>
+    <string name="add">Legg til</string>
+    <string name="more_choices">Fleire val</string>
+    <string name="back">Tilbake</string>
+    <string name="search">Søk</string>
+    <string name="edit">Rediger</string>
+    <string name="picker_dialog_title">Velg måte å se nyheitene på</string>
+    <string name="location">Plass</string>
+    <string name="follow">Følg</string>
+    <string name="following">Følgjer</string>
+    <string name="notifications_activated">Varsling på</string>
+    <string name="notifications_deactivated">Varsling av</string>
+
+    <string name="ad">Annonse</string>
+</resources>

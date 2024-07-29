@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeContainer"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:background="#11575252"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <androidx.cardview.widget.CardView
+      android:elevation="8dp"
+      android:background="@android:color/black"
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <FrameLayout
+          android:layout_gravity="center"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+    <se.infomaker.iap.theme.view.ThemeableTextView
+                    android:id="@+id/toolbar_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:themeKey="toolbarTitle"
+        android:textColor="@android:color/black"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="Partnered with" />
+      </FrameLayout>
+  </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+      android:layout_marginTop="8dp"
+      app:cardElevation="8dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <se.infomaker.iap.theme.view.ThemeableImageView
+            android:visibility="visible"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cp" />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:visibility="visible"
+        android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:id="@+id/progressDialog"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="@android:color/black"
+     />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:spanCount="2"
+        android:paddingBottom="?actionBarSize"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+      />
+
+</FrameLayout>
+</LinearLayout>
+  </androidx.cardview.widget.CardView>
+    <FrameLayout
+        android:id="@+id/offline_error_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

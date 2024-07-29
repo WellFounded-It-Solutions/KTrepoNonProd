@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="youplay_description" type="id" />
+    <item name="youplay" type="id" />
+    <item name="screen9" type="id" />
+    <item name="holder" type="id"/>
+    <item name="dividerDecoration" type="id"/>
+    <item name="adItemText" type="id" />
+    <item name="adItemAdWrapper" type="id" />
+    <item name="viewMap" type="id"/>
+    <item name="original_margin_holder" type="id"/>
+    <item name="original_padding_holder" type="id"/>
+    <item name="margin_decorators" type="id"/>
+</resources>

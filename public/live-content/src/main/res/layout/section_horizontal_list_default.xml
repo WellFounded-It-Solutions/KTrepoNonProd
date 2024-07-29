@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="2dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:themeBackgroundColor="horizontalListBackground"
+        tools:background="#212121">
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMRecyclerView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            app:snapTo="start"
+            app:layout_constraintTop_toTopOf="parent"
+            app:itemsBindKeyPath="articles"
+            app:bindKeyPath="."
+            app:loopScroll="true"
+            app:childWidth="280dp"
+            app:stretchToFill="true"
+            app:itemClickIdentifier="openArticle"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:themeSpacing="listPackageArticleSpacing"
+            tools:itemCount="4"
+            app:itemLayout="@layout/section_horizontal_list_item_default"
+            tools:listitem="@layout/section_horizontal_list_item_default" />
+
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:themeTouchColor="interaction">
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="fallbackContext"
+        tools:text="Context" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/provider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/context"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginLeft="16dp"
+        app:themeKey="fallbackProvider"
+        tools:text="Provider" />
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/provider"
+        tools:background="#dd666666"
+        tools:layout_height="200dp" />
+
+    <LinearLayout
+        android:id="@+id/loadingError"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ECECEC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/provider"
+        android:gravity="center"
+        tools:layout_height="200dp"
+        tools:background="#dd666666"
+        android:visibility="invisible">
+
+    </LinearLayout>
+
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:themeKey="fallbackTitle"
+        tools:text="Title" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:themeKey="fallbackDescription"
+        tools:text="Description" />
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

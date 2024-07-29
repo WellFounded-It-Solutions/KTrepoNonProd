@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.articleview.view.LifecycleProxyConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    app:themeBackgroundColor="articleBackground">
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/adItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/adItemAdWrapper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginRight="8dp"
+        app:themeKey="adTitle"
+        tools:text="This is an ad" />
+
+    <FrameLayout
+        android:id="@+id/adItemAdWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adItemText"
+        tools:background="#ff0000" />
+</se.infomaker.iap.articleview.view.LifecycleProxyConstraintLayout>

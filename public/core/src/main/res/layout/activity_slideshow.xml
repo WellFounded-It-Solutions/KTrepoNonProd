@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slideshowRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".slideshow.SlideshowActivity">
+
+    <se.infomaker.coremedia.slideshow.SlideshowViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#99000000"
+            android:orientation="vertical">
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                app:themeKey="imageGalleryViewerCaptionText"
+                tools:text="Image text" />
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/imagePhotographer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                app:themeKey="imageGalleryViewerPhotographerText"
+                tools:text="Image text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pageIndicatorBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#99000000"
+            android:orientation="horizontal">
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/pageIndicatorCurrentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pageIndicatorTotalTextView"
+                android:paddingLeft="12dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                app:themeKey="imageGalleryViewerCurrentText"
+                tools:text="1" />
+
+            <se.infomaker.iap.theme.view.ThemeableTextView
+                android:id="@+id/pageIndicatorTotalTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="12dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                app:themeKey="imageGalleryViewerTotalText"
+                tools:text="/51" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

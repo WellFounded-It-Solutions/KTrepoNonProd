@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_side_padding">8dp</dimen>
+    <dimen name="item_separation">8dp</dimen>
+</resources>

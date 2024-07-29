@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "b62b911b4eba10bb6e2b6258898db31a",
+    "entities": [
+      {
+        "tableName": "hits",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`query_params` TEXT NOT NULL, `hitId` TEXT NOT NULL, `query_time` INTEGER NOT NULL, PRIMARY KEY(`hitId`))",
+        "fields": [
+          {
+            "fieldPath": "queryParams",
+            "columnName": "query_params",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "hitId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "queryTime",
+            "columnName": "query_time",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "hitId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"b62b911b4eba10bb6e2b6258898db31a\")"
+    ]
+  }
+}

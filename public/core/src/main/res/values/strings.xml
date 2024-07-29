@@ -1,0 +1,143 @@
+<resources>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="start_page">Home</string>
+
+    <!-- Font paths -->
+    <string name="produkt_light_app" translatable="false">fonts/Produkt-Light-App.ttf</string>
+    <string name="retry">Retry</string>
+    <string name="could_not_verify_paywall">Could not verify permission to see content.</string>
+    <string name="no_access_to_content_toast">You don\'t have access to the content in the app!</string>
+
+    <string name="no_phone_app">No phone app available</string>
+
+    <string name="generic_app_name">the app</string>
+    <string name="initial_title">Thank you for using {{APP.name}}!</string>
+    <string name="initial_message">Are you enjoying using {{APP.name}}?</string>
+    <string name="initial_positive">Yes</string>
+    <string name="initial_negative">No</string>
+    <string name="negative_feedback_prompt_title">We\'re sorry to hear you\'re not enjoying {{APP.name}}</string>
+    <string name="negative_feedback_prompt_body">Would you like to let us know why you\'re not happy?</string>
+    <string name="negative_feedback_prompt_positive_button">Yes</string>
+    <string name="negative_feedback_prompt_negative_button">No</string>
+    <string name="no_email_client_available">Could not find an email client to compose email, please install one and try again.</string>
+    <string name="intent_chooser">Send feedback using…</string>
+    <string name="option_play">Your feedback is appreciated!</string>
+    <string name="option_playstore">Would you like to rate {{APP.name}}?</string>
+    <string name="rate_button_title">Yes</string>
+    <string name="never_button_title">Never</string>
+    <string name="snooze_button_title">Later</string>
+    <string name="email_feedback_subject">Feedback for {{APP.name}}</string>
+    <string name="email_feedback_body">\n\nApp: {{APP.name}}\nVersion: {{APP.versionName}} ({{APP.versionCode}}) \nOS: Android {{APP.sdkRelease}} \nDevice: {{APP.manufacturer}} {{APP.model}}</string>
+
+    <string name="settings_download_info">Additional charges may apply from your carrier</string>
+    <string name="settings_download_short">Allow download over mobile networks</string>
+    <string name="settings_category_download">Background download</string>
+    <string name="http_action_failure">Something went wrong, check your internet connection and try again.</string>
+
+    <string name="default_app_update_obsolete_title">Thank you for using the app</string>
+    <string name="default_app_update_obsolete_description">It\'s been a great journey, unfortunately support for this app has been discontinued.</string>
+    <string name="default_app_update_required_title">Your app needs to be updated</string>
+    <string name="default_app_update_required_description">In order to use this app you need to install the latest update.</string>
+    <string name="default_app_update_recommended_title">There is a new update</string>
+    <string name="default_app_update_recommended_description">To get the best possible experience using this app, we recommend you update.</string>
+    <string name="default_app_update_button_text">Update now</string>
+    <string name="default_app_update_later_button_text">Later</string>
+
+    <string name="photographer">Photo:</string>
+
+    <string name="per_month">per month</string>
+    <string name="per_2_months">every other month</string>
+    <string name="per_3_months">per 3 months</string>
+    <string name="per_6_months">per 6 months</string>
+    <string name="per_year">per year</string>
+    <string name="cancel_suscription_note">You can cancel your subscription at any time.</string>
+    <string name="default_purchase_title">Subscribe now.</string>
+    <string name="already_customer">Are you already a customer?</string>
+    <string name="logout_button">Logout</string>
+    <string name="login">Login</string>
+    <string name="activate_subscription">Activate subscription</string>
+    <string name="default_login_title" >Login.</string>
+    <string name="login_button">Login</string>
+    <string name="form_password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_account">Create your account.</string>
+    <string name="create_account_description">By creating an account, your subscription is extended to the web and other platforms</string>
+    <string name="create_account_button">Create account</string>
+    <string name="email">Email</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="don_t_want_an_account">Don\'t want an account?</string>
+    <string name="skip">Skip</string>
+    <string name="need_to_provide_password">You need to provide a password</string>
+    <string name="passwords_does_not_match">Password and repeat does not match</string>
+    <string name="provide_valid_email">Please provide a valid e-mail!</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="confirm_opt_out_message">You will not be able to access your subscription on the web.</string>
+    <string name="introductoryPriceFormat">%1$s for the first %2$d days</string>
+    <string name="introductoryPriceWithPeriodsFormat">%1$s for %2$d days, during %3$d days</string>
+    <string name="therafterFormat">Thereafter %1$s %2$s.</string>
+    <string name="or">or</string>
+    <string name="already_subscribed_text">If you already have a subscription, you can connect it to the app.</string>
+    <string name="purchase_leadin">Welcome! You only have a few steps left before you can read the news in a completely new way.</string>
+    <string name="already_customer_title">Already customer?</string>
+    <string name="subscription_expired">Oops! It looks like your subscription has expired.  We really hope you\'ve enjoyed your subscription and we hope you choose to renew it.</string>
+    <string name="failed_to_open_uri">Could not open uri</string>
+    <string name="locked_article">You need to purchase a subscription to access this content.</string>
+    <string name="locked_article_login_only">You need to be logged in to access this content.</string>
+    <string name="subscription_renewal_message">You need to be logged in to access this content.</string>
+    <string name="subscription_renewal_message_login_only">Contact customer service to resume your subscription</string>
+    <string name="already_subscribed_text_login_only">Missing a subscription? Contact customer service to become a customer with us</string>
+    <string name="continue_with">Continue with:</string>
+    <string name="other_account_login">Sign in using another account</string>
+    <plurals name="days_format">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="login_type_error">Something went wrong, check your internet connection and try again.</string>
+
+    <string name="settings_receive_notifications">Notifications</string>
+    <string name="settings_receive_push">Push</string>
+    <string name="settings_push_info">Allow the app to receive push notifications</string>
+    <string name="settings_push_sound">Sound</string>
+    <string name="settings_push_sound_info">Play sound when receiving notifications</string>
+    <string name="settings_push_vibrate">Vibrate</string>
+    <string name="settings_push_vibrate_info">Vibrate when receiving notifications</string>
+    <string name="settings_download_background">Background download</string>
+    <string name="settings_background_info">Allow the app to automatically download new issues</string>
+    <string name="settings_download_cellular_info">Additional fees may apply when downloading through cellular</string>
+    <string name="settings_download_cellular_short">Allow download through cellular</string>
+    <string name="settings_category_epaper">ePaper</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_issues_keep">Numbers of issues to save</string>
+    <string name="settings_version">Version</string>
+    <string name="setting_open_source_licenses">Open source-licenses</string>
+    <string name="settings_policytitle">Privacy policy</string>
+    <string name="my_profile_settings">Settings</string>
+    <string name="my_profile_log_in">Log in</string>
+    <string name="my_profile_log_out">Log out</string>
+    <string name="my_profile_welcome">Welcome</string>
+    <string name="array_amount_save_all">Save all</string>
+    <string name="my_profile_faqtitle">FAQ</string>
+    <string name="settings_content_prefetching">Improved offline experience</string>
+    <string name="settings_content_prefetching_info">Download content periodically in the background</string>
+
+    <string name="done_button">Done</string>
+
+    <string name="now">Now</string>
+    <string name="oneMinuteAgo">One minute ago</string>
+    <string name="today_format">Today %1$s</string>
+    <string name="minutes_ago">%1$d minutes ago</string>
+
+    <string name="store_scheme" translatable="false">market</string>
+    <string name="store_listing" translatable="false" />
+    <string name="target_platform" translatable="false" />
+
+    <string name="provisioning_customer_service_button"> Kontakta kundcenter</string>
+    <string name="provisioning_no_subscription_contact_customer_service_body"> Vänligen kontakta kundcenter för hjälp.</string>
+
+    <string name="provisioning_no_subscription_contact_customer_service"> Du behöver uppgradera din prenumeration till Digital Plus.</string>
+
+    <string name="provisioning_subscription_ended">Du kommer inte åt det här innehället.</string>
+
+</resources>

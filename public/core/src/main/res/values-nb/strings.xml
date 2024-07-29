@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_close"> Lukk navigasjonsmenyen</string>
+    <string name="drawer_open"> Åpne navigasjonsmenyen</string>
+    <string name="start_page">Hjem</string>
+
+    <string name="generic_app_name">appen</string>
+    <string name="initial_title">Takk for at du bruker {{APP.name}}!</string>
+    <string name="initial_message">Liker du å bruke {{APP.name}}?</string>
+    <string name="initial_positive">Ja</string>
+    <string name="initial_negative">Nei</string>
+    <string name="negative_feedback_prompt_title">Vi er lei oss for at du ikke liker {{APP.name}}</string>
+    <string name="negative_feedback_prompt_body">Vil du si noe om hva du ikke liker?</string>
+    <string name="negative_feedback_prompt_positive_button">Ja</string>
+    <string name="negative_feedback_prompt_negative_button">Nei</string>
+    <string name="no_email_client_available">Fant ikke noen e-postklient. Installer og prøv igjen.</string>
+    <string name="intent_chooser">Send tilbakemelding med …</string>
+    <string name="option_play">Vi setter pris på tilbakemeldingen!</string>
+    <string name="option_playstore">Vil du rangere {{APP.name}}?</string>
+    <string name="rate_button_title">Ja</string>
+    <string name="never_button_title">Aldri</string>
+    <string name="snooze_button_title">Senere</string>
+    <string name="email_feedback_subject">Tilbakemelding for {{APP.name}}</string>
+    <string name="email_feedback_body">\n\nApp: {{APP.name}}\nVersjon: {{APP.versionName}} ({{APP.versionCode}}) \nOS: Android {{APP.sdkRelease}} \nEnhet: {{APP.manufacturer}} {{APP.model}}</string>
+
+    <string name="default_app_update_obsolete_title">Takk for at du bruker appen</string>
+    <string name="default_app_update_obsolete_description">Det har vært en flott reise, dessverre støttes ikke denne appen lenger</string>
+    <string name="default_app_update_required_title">Din app må oppdateres</string>
+    <string name="default_app_update_required_description">For å bruke appen må du installere den nyeste versjonen</string>
+    <string name="default_app_update_recommended_title">Oppdateringer er tilgjengelig</string>
+    <string name="default_app_update_recommended_description">For den beste brukeropplevelsen anbefaler vi at du oppdaterer nå</string>
+    <string name="default_app_update_button_text">Oppdater nå</string>
+    <string name="default_app_update_later_button_text">Senere</string>
+
+    <string name="per_month">per måned</string>
+    <string name="per_2_months">hver annen måned</string>
+    <string name="per_3_months">hver tredje måned</string>
+    <string name="per_6_months">per halvår</string>
+    <string name="per_year">per år</string>
+    <string name="cancel_suscription_note">Du kan når som helst avslutte ditt abonnement.</string>
+    <string name="default_purchase_title">Abonner nå.</string>
+    <string name="already_customer">Er du allerede kunde hos oss?</string>
+    <string name="logout_button">Logg ut</string>
+    <string name="login">Logg inn</string>
+    <string name="activate_subscription">Koble mitt abonnement.</string>
+    <string name="default_login_title" >Logg inn.</string>
+    <string name="login_button">Logg inn</string>
+    <string name="form_password">Passord</string>
+    <string name="forgot_password">Glemt passord?</string>
+    <string name="create_account">Opprett konto</string>
+    <string name="create_account_description">Du trenger en konto for å logge på nettet og andre plattformer.</string>
+    <string name="create_account_button">Opprett konto</string>
+    <string name="email">E-post</string>
+    <string name="repeat_password">Gjenta passord</string>
+    <string name="don_t_want_an_account">Vil du ikke skape en konto?</string>
+    <string name="skip">Hopp over</string>
+    <string name="need_to_provide_password">Passordet mangler</string>
+    <string name="passwords_does_not_match">Passordene er ikke like.</string>
+    <string name="provide_valid_email">Angi en gyldig e-postadresse.</string>
+    <string name="are_you_sure">Er du sikker?</string>
+    <string name="confirm_opt_out_message">Du kan ikke bruke ditt abonnement på nettet.</string>
+    <string name="introductoryPriceFormat">%2$d dager for %1$s</string>
+    <string name="introductoryPriceWithPeriodsFormat">%1$s for %2$d dager, de første %3$d dagene</string>
+    <string name="therafterFormat">Etter det%1$s %2$s.</string>
+    <string name="or">eller</string>
+    <string name="already_subscribed_text">Om du allerede abonnerer på avisen kan du koble abonnementet ditt til appen.</string>
+    <string name="purchase_leadin">Velkommen! Du har bare noen få steg igjen, så kan du lese avisen på en helt ny måte</string>
+    <string name="already_customer_title">Er du allerede kunde hos oss?</string>
+    <string name="subscription_expired">Hei! Du har ikke et aktivt abonnement hos oss akkurat nå. Vi håper du vil tegne et nytt eller fornye et tidligere abonnement. Ta gjerne kontakt med kundeservice om du trenger hjelp.</string>
+    <string name="failed_to_open_uri">Kunne ikke åpen uri</string>
+    <string name="subscription_renewal_message">Du må være abonnent for å få tilgang til dette innholdet.</string>
+    <string name="subscription_renewal_message_login_only">Ta kontakt med vår kundeservice for å gjennoppta ditt abonnement.</string>
+    <string name="locked_article">Du må være abonnent for å få tilgang til dette innholdet.</string>
+    <string name="locked_article_login_only">Du må være innlogget for å få tilgang til dette innholdet.</string>
+    <string name="already_subscribed_text_login_only">Mangler du et abonnement? Ta kontakt med vår kundeservice for å bli kunde hos oss.</string>
+    <string name="continue_with">Fortsett med:</string>
+    <string name="other_account_login">Logg inn med en annen konto</string>
+    <plurals name="days_format">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dager</item>
+    </plurals>
+    <string name="login_type_error">Noe gikk galt. Kontroller Internett-tilkoblingen og prøv igjen.</string>
+
+    <string name="my_profile_log_in">Logg inn</string>
+    <string name="array_amount_save_all">Lagre alle</string>
+    <string name="my_profile_settings">Innstillinger</string>
+    <string name="my_profile_log_out">Logg ut</string>
+    <string name="my_profile_welcome">Velkommen</string>
+    <string name="setting_open_source_licenses">Åpen kildekode-lisenser</string>
+    <string name="settings_background_info"> Tillat appen automatisk laste ned nye utgaver</string>
+    <string name="settings_category_epaper">ePaper</string>
+    <string name="settings_category_general"> Generelt</string>
+    <string name="settings_download_background">Bakgrunn nedlasting</string>
+    <string name="settings_download_cellular_info">Prisene for nedlasting kan variere avhengig av abonnementet</string>
+    <string name="settings_download_cellular_short">Tillat nedlasting av mobilnettet</string>
+    <string name="settings_issues_keep"> Antall utgaver for å spare</string>
+    <string name="settings_receive_notifications">Innstillinger for push-varsling</string>
+    <string name="settings_receive_push">Push</string>
+    <string name="settings_push_info">La appen motta push-varslinger</string>
+    <string name="settings_push_sound">Lyd</string>
+    <string name="settings_push_sound_info">Spill en lyd når det kommer push-varsel</string>
+    <string name="settings_push_vibrate">Vibrering</string>
+    <string name="settings_push_vibrate_info">Vibrer når det kommer push-varsel</string>
+    <string name="settings_version">Versjon</string>
+    <string name="settings_policytitle">Personvernerklæring</string>
+    <string name="my_profile_faqtitle">Ofte stilte spørsmål</string>
+    <string name="settings_content_prefetching">Forbedret opplevelse uten nett</string>
+    <string name="settings_content_prefetching_info">Last ned innhold regelmessig i bakgrunnen</string>
+
+    <string name="now">Nå</string>
+    <string name="oneMinuteAgo">Ett minutt siden</string>
+    <string name="today_format">I dag %1$s</string>
+    <string name="minutes_ago">%1$d minutter siden</string>
+
+    <string name="provisioning_customer_service_button"> Kontakta kundcenter</string>
+    <string name="provisioning_no_subscription_contact_customer_service_body"> Vänligen kontakta kundcenter för hjälp.</string>
+
+    <string name="provisioning_no_subscription_contact_customer_service"> Du behöver uppgradera din prenumeration till Digital Plus.</string>
+
+    <string name="provisioning_subscription_ended">Du kommer inte åt det här innehället.</string>
+
+</resources>

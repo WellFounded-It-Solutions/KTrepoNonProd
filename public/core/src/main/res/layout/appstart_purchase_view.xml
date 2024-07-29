@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/leadin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/purchase_leadin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="provisioningLeadin" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/subscriptionExpired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:paddingBottom="32dp"
+        android:text="@string/subscription_expired"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="provisioningLeadin" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/purchaseBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="or,subscriptionExpired" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/alreadySubscribedTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/already_customer"
+        app:layout_constraintEnd_toEndOf="@+id/leadin"
+        app:layout_constraintStart_toStartOf="@+id/leadin"
+        app:layout_constraintTop_toBottomOf="@+id/leadin"
+        app:themeKey="provisioningTitle" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/credentialTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/continue_with"
+        app:layout_constraintEnd_toEndOf="@+id/alreadySubscribedTitle"
+        app:layout_constraintStart_toStartOf="@+id/alreadySubscribedTitle"
+        app:layout_constraintTop_toBottomOf="@+id/alreadySubscribedTitle"
+        app:themeKey="provisioningBody" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/credentialList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/leadin"
+        app:layout_constraintStart_toStartOf="@+id/leadin"
+        app:layout_constraintTop_toBottomOf="@+id/credentialTitle" />
+
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/alreadySubscribedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/already_subscribed_text"
+        app:layout_constraintTop_toBottomOf="@+id/showLogin"
+        app:themeKey="provisioningBody" />
+
+    <FrameLayout
+        android:id="@+id/showLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/alreadySubscribedTitle"
+        app:layout_constraintRight_toRightOf="@+id/alreadySubscribedTitle"
+        app:layout_constraintTop_toBottomOf="@+id/credentialList">
+
+        <se.infomaker.iap.theme.view.ThemeableMaterialButton
+            android:id="@+id/showLoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:letterSpacing="0"
+            android:padding="12dp"
+            android:text="@string/login"
+            app:themeBackgroundColor="purchaseSubscriptionLoginButton"
+            app:themeKey="purchaseSubscriptionLoginButton" />
+
+        <se.infomaker.iap.theme.view.ThemeableTextView
+            android:id="@+id/showLoginLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:text="@string/other_account_login"
+            app:themeKey="provisioningLink" />
+    </FrameLayout>
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/or"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alreadySubscribedText"
+        app:themeKey="dividerLabel" />
+
+    <se.infomaker.iap.theme.view.ThemeableFrameLayout
+        android:id="@+id/orLeft"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/or"
+        app:layout_constraintBottom_toBottomOf="@+id/or"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/or"
+        app:themeBackgroundColor="purchaseSubscriptionDivider"
+        tools:background="#000" />
+
+    <se.infomaker.iap.theme.view.ThemeableFrameLayout
+        android:id="@+id/orRight"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintTop_toTopOf="@+id/or"
+        app:layout_constraintBottom_toBottomOf="@+id/or"
+        app:layout_constraintLeft_toRightOf="@+id/or"
+        app:layout_constraintRight_toRightOf="parent"
+        app:themeBackgroundColor="purchaseSubscriptionDivider"
+        tools:background="#000" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/orGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="or,orLeft,orRight" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/loggedOutGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="showLogin,alreadySubscribedTitle,alreadySubscribedText" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/loggedInGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="logoutButton,subscriptionExpired" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or" />
+
+    <se.infomaker.iap.theme.view.ThemeableMaterialButton
+        android:id="@+id/logoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:letterSpacing="0"
+        android:padding="12dp"
+        android:text="@string/logout_button"
+        app:layout_constraintLeft_toLeftOf="@+id/subscriptionExpired"
+        app:layout_constraintRight_toRightOf="@+id/subscriptionExpired"
+        app:layout_constraintTop_toBottomOf="@+id/or"
+        app:themeBackgroundColor="purchaseSubscriptionLoginButton"
+        app:themeKey="purchaseSubscriptionLoginButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_receive_push"
+        android:summary="@string/settings_push_info"
+        android:title="@string/settings_receive_push" />
+
+    <PreferenceCategory android:title="@string/settings_category_download">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_download"
+            android:summary="@string/settings_background_info"
+            android:title="@string/settings_download_background" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_download_cellular"
+            android:summary="@string/settings_download_info"
+            android:title="@string/settings_download_short" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="downloadType"
+        android:summary="%s"
+        android:title="@string/settings_issues_keep" />
+</PreferenceScreen>

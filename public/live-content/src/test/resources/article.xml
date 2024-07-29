@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsItem conformance="power" guid="7d4eb372-d924-416e-b966-8e5b6958ae80"
+          standard="NewsML-G2" standardversion="2.20" version="1"
+          xmlns="http://iptc.org/std/nar/2006-10-01/">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+    <catalogRef href="http://infomaker.se/spec/catalog/catalog.infomaker.g2.1_0.xml"/>
+    <itemMeta>
+        <itemClass qcode="ninat:text"/>
+        <provider literal="InfomakerConfig"/>
+        <versionCreated>2017-01-26T08:48:06Z</versionCreated>
+        <firstCreated>2017-01-26T08:47:15Z</firstCreated>
+        <pubStatus qcode="imext:draft"/>
+        <title>Template 1</title>
+        <links xmlns="http://www.infomaker.se/newsml/1.0"/>
+
+        <itemMetaExtProperty type="imext:uri"
+                             value="im://article/7d4eb372-d924-416e-b966-8e5b6958ae80"/>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2017-01-26T08:47:15Z</contentCreated>
+        <contentModified>2017-01-26T08:48:06Z</contentModified>
+        <metadata xmlns="http://www.infomaker.se/newsml/1.0">
+            <object id="RYaudnAJj8gQ" type="x-im/newsvalue">
+                <data>
+                    <score>1</score>
+                    <description>6H</description>
+                    <text>PT6H</text>
+                    <format>lifetimecode</format>
+                    <end/>
+                    <duration>21600</duration>
+                </data>
+            </object>
+
+            <object id="MzEsMTI3LDk2LDIzOQ"
+                    title="”Att C och L vill behålla regeringen är förunderligt och kommer att straffas av väljarna.”"
+                    type="x-im/teaser">
+                <data>
+                    <text>Skånemoderaternas Lars-Ingvar Ljungman kritiserar alliansvänner.</text>
+                </data>
+                <links>
+                    <link rel="image" type="x-im/image"
+                          uri="im://image/2AlId7ONHlLjdYJa7InESKU4Ld8.jpeg"
+                          uuid="89f5c08e-8964-5edc-8c42-ad7571ae02b7"/>
+                </links>
+            </object>
+        </metadata>
+    </contentMeta>
+    <contentSet>
+        <inlineXML>
+            <idf xmlns="http://www.infomaker.se/idf/1.0" xml:lang="sv">
+
+                <group type="body">
+                    <element id="headline-f11bca2c4fbf026d9468654ae6b8aa25" type="headline">”Att C
+                        och L vill behålla regeringen är förunderligt och kommer att straffas av
+                        väljarna.”
+                    </element>
+                    <element id="preamble-538323820ca65f82078fe9938cc9808a" type="preamble">Försöken
+                        att isolera SD har varit förödande. De har bidragit till Sveriges
+                        bekymmersamma läge och SD:s framgångar. Och ändå – med stöd från Centern och
+                        Liberalerna lär Stefan Löfven (S) kunna sitta kvar. Det skriver
+                        Skånemoderaternas ordförande Lars-Ingvar Ljungman.
+                    </element>
+                    <object id="MTkxLDMyLDIzMSw2Nw" type="x-im/image"
+                            uuid="89f5c08e-8964-5edc-8c42-ad7571ae02b7">
+                        <links>
+                            <link rel="self" type="x-im/image"
+                                  uri="im://image/2AlId7ONHlLjdYJa7InESKU4Ld8.jpeg"
+                                  uuid="89f5c08e-8964-5edc-8c42-ad7571ae02b7">
+                                <data>
+                                    <text>De går inte längre i takt, Anna Kinberg Batra (M), Ebba
+                                        Busch Thor (KD), Annie Lööf (C) och Jan Björklund (L). Att
+                                        ett par allianspartier ser den rödgröna regeringen som ett
+                                        tecken på politisk stabilitet förvånar skribenten
+                                        Lars-Ingvar Ljungman, som leder Moderaterna i Skåne.
+                                    </text>
+                                    <width>1600</width>
+                                    <height>969</height>
+                                </data>
+                                <links>
+                                    <link rel="author" title="Janerik Henriksson/TT"
+                                          uuid="00000000-0000-0000-0000-000000000000"/>
+                                </links>
+                            </link>
+                        </links>
+                    </object>
+                    <element id="2912e59f616ab27f098f875bd515ad69" type="body">Så kom då beskedet
+                        som skapat så mycket debatt den senaste veckan: Anna Kinberg Batra
+                        förklarade att Moderaterna nu skulle bedriva oppositionspolitik på riktigt!
+                    </element>
+                    <element id="block_3" type="body">Utspelet bestod av två delar: dels var
+                        ambitionen att alliansen skulle lägga en gemensam budget till hösten, dels
+                        skulle Moderaterna förhandla med SD i sakfrågor i riksdagen, allt i syfte
+                        att åstadkomma majoriteter för borgerlig politik. Dock finns det inga
+                        förutsättningar för en regeringssamverkan – på denna punkt var M-ledaren
+                        tydlig.
+                    </element>
+                    <element id="block_4" type="body">
+                        <strong id="d74676c6912e0343bda6b3d0c04c6ff8">De andra</strong>
+                        politiska partierna reagerade med bestörtning och avståndstagande. Landet
+                        skulle nu kastas in i kaos. Moderatledaren hade förlorat sin kompass, sades
+                        det. I en orolig omvärld behövs politisk stabilitet, sade Annie Lööf (C) och
+                        Jan Björklund (L) kallade det för ett olyckligt utspel.
+                    </element>
+                    <element id="block_5" type="body">Det skulle alltså, enligt Centern och
+                        Liberalerna, vara politiskt stabilt att fortsätta med nuvarande regering.
+                        Något märkligt med tanke på vad regeringen hittills har presterat eller
+                        föreslagit:
+                    </element>
+                    <element id="block_6" type="body">
+                        <strong id="8401c3bf1ef3f7be6b4a647704c70991">Högre skatt</strong>
+                        på arbete och utbildning – fler betalar statlig inkomstskatt och fler
+                        betalar värnskatt, försämrade villkor för entreprenörer och småföretagare
+                        genom att ändra de så kallade 3:12-reglerna, bensinskatt som höjs,
+                        kilometerskatt, flygskatt, bankskatt, obligatoriskt med kollektivavtal vid
+                        upphandlingar och så den famösa Reepaluutredningen, den som i praktiken
+                        stoppar privata företag och därmed möjligheten till valfrihet i välfärden.
+                    </element>
+                    <element id="block_7" type="body">Till detta kommer ett rättsväsende i snabbt
+                        förfall och ett försvar som bara delvis kan fullgöra sin uppgift - vårt
+                        numera beryktade ”enveckasförsvar”. Här saknar regeringen vilja eller
+                        förmåga att ta itu med problemen.
+                    </element>
+                    <element id="block_8" type="body">Att borgerliga partier vill behålla denna
+                        regering och dessutom ser den som ett tecken på politisk stabilitet är
+                        förunderligt och kommer att straffas av väljarna, det är jag helt övertygad
+                        om.
+                    </element>
+                    <element id="block_9" type="body">Hur kunde det bli så?</element>
+                    <element id="block_10" type="body">I valet 2010 och än mer 2014 etablerades ett
+                        nytt politiskt landskap i Sverige. Sedan tidigare har det varit sällsynt med
+                        majoritetsregeringar inom något av de två existerande blocken, nu blev det i
+                        praktiken omöjligt eftersom vi fick ett tredje block bestående av
+                        Sverigedemokraterna.
+                    </element>
+                    <element id="block_11" type="body">Ska vi tro de ständigt återkommande
+                        opinionsundersökningarna kommer detta att befästas i valet 2018. Tre
+                        hyggligt jämnstora partier, S, M och SD, kompletterade av ett antal mindre
+                        partier där flera dessutom lever i farlig närhet av riksdagsspärren.
+                    </element>
+                    <element id="block_12" type="body">
+                        <strong id="19c971cf618c643c8bc222e8d1c096a0">Ambitionen från</strong>
+                        övriga partier har så här långt varit att isolera SD, vilket så småningom
+                        resulterade i den så kallade decemberöverenskommelsen, DÖ. Innan dess ingick
+                        alliansregeringen en överenskommelse i flyktingpolitiken med MP som även S
+                        anslöt sig till. Enligt min mening har dessa överenskommelser varit
+                        förödande och bidragit både till landets bekymmersamma läge och SD:s
+                        framgångar.
+                    </element>
+                    <element id="block_13" type="body">Överenskommelsen i flyktingpolitiken bidrog
+                        starkt till att skapa den flyktingström som kommer att prägla vårt land för
+                        många år framöver och som kommer att ställa mycket stora krav på vår
+                        välfärd. DÖ tolkades av många som ett förakt för valresultatet, ett försök
+                        att sätta sig över väljarnas vilja. Det resulterade också i en regering som
+                        står långt till vänster i svensk politik och som därmed för en för landet
+                        skadlig politik som dessutom saknar majoritet i riksdagen.
+                    </element>
+                    <element id="block_14" type="body">
+                        <strong id="63bc4a30d88c669a08b9c224b9eea9a0">Allt sammantaget</strong>
+                        innebar det att de opinionsmässiga framgångarna för SD fortsatte.
+                    </element>
+                    <element id="block_15" type="body">Så föll då DÖ vid KD:s riksting och nu skulle
+                        väl allt bli som vanligt? Nej, knappast!
+                    </element>
+                    <element id="block_16" type="body">De borgerliga partierna fortsatte som om DÖ
+                        fortfarande gällde och inte minst aktiva moderater började bli alltmer
+                        otåliga. I fråga efter fråga uppstod majoritet för alliansens förslag med
+                        hjälp av SD, men regeringen fick fortsätta sin något vingliga färd med stöd
+                        av Vänsterpartiet.
+                    </element>
+                    <element id="block_17" type="body">I detta läge bestämmer sig den moderata
+                        partiledningen för att säga stopp. Nu vill den ha igenom sin egen politik
+                        genom att utnyttja det parlamentariska läget, det som borde vara alla
+                        politikers uppgift.
+                    </element>
+                    <element id="block_18" type="body">Finns det erfarenheter från våra grannar? Ja,
+                        lite finns det allt.
+                    </element>
+                    <element id="block_19" type="body">I Norge och Finland ingår numera populistiska
+                        partier i regeringen (jag bortser från de eventuella skillnader som finns
+                        mellan dessa partier och svenska SD). Detta lär inte bli aktuellt i Sverige.
+                    </element>
+                    <element id="block_20" type="body">I Danmark däremot har vi länge haft
+                        borgerliga regeringar som stött sig på Dansk folkeparti. Det stora
+                        borgerliga partiet i Danmark, Venstre, har med viss skicklighet manövrerat i
+                        regeringsställning utan att formellt ha majoritet i folketinget. Här har vi
+                        mycket att lära.
+                    </element>
+                    <element id="block_21" type="body">
+                        <strong id="900b4b2d105bd4ef6c45b2e45eaaf2e6">Vad händer nu?</strong>
+                        Ja, uppenbarligen kommer regeringen Löfven att kunna fortsätta eftersom man
+                        får passivt stöd från C och L.
+                    </element>
+                    <element id="block_22" type="body">Alliansen är skadeskjuten men kommer
+                        förmodligen att repa sig inför valet 2018. Förutsättningarna finns för
+                        gemensamma förslag, ambitionen att hålla ihop likaså.
+                    </element>
+                    <element id="block_23" type="body">Hur går det i valet 2018? Det är svårt att
+                        spå, särskilt om framtiden, sägs det. Chansen eller risken är att det inte
+                        blir så stora förändringar. Valet kan mycket väl avgöras inte av vem som
+                        blir störst utan av vem som faller ur. KD, L och MP ligger alla farligt nära
+                        spärren även om det är osannolikt att alla skulle falla ur.
+                    </element>
+                    <element id="block_24" type="body">
+                        <strong id="9bdc62c8fb6764f7cb4609afd5ba5c4c">Stämmer</strong>
+                        opinionsmätningarna kommer vi att vara tillbaka på ruta ett efter valet och
+                        då kan man tänka sig tre alternativ:
+                    </element>
+                    <element id="block_25" type="body">- förhandla med SD för att skapa ett
+                        borgerligt alternativ
+                    </element>
+                    <element id="block_26" type="body">- förhandla över blockgränsen</element>
+                    <element id="block_27" type="body">- en minoritetsregering som använder sig av
+                        hoppande majoriteter
+                    </element>
+                    <element id="block_28" type="body">Helt säkert är att utspelet från Anna Kinberg
+                        Batra har vitaliserat den politiska debatten.
+                    </element>
+                    <element id="headline-d526a89faa9be1fc8c6a7e8f15cf5f43" type="headline">
+                        Lars-Ingvar Ljungman
+                    </element>
+                    <element id="factbody-aadf161783dfe1b4afa981db06206bd8" type="fact-body">
+                        Lars-Ingvar Ljungman är ordförande för Skånemoderaterna.
+                    </element>
+                    <element id="paragraph-166584f0f81502fb14bf3939e8e53a8b" type="body"/>
+                </group>
+            </idf>
+        </inlineXML>
+    </contentSet>
+</newsItem>

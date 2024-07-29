@@ -1,0 +1,35 @@
+{
+	"ArticleContent": ["Nyhet"],
+	"TeaserImageHeight": null,
+	"RelatedLinks": null,
+	"ShowContentExplanation": ["true"],
+	"Geometries": [],
+	"ArticleHeadline": ["World Cup final brings world together"],
+	"uuid": ["05a0d9ee-5eb7-449d-bc06-03726f6d9455"],
+	"ImageWidths": null,
+	"AuthorConcepts": [{
+		"Email": ["peter.mansson@infomaker.se"],
+		"ConceptName": ["Peter Månsson"],
+		"uuid": ["abe22c5f-711c-468c-b4e5-bc9058af9983"],
+		"contenttype": ["Concept"]
+	}],
+	"TeaserImageUuid": null,
+	"Stories": [],
+	"ImageUuids": null,
+	"TeaserImageCrop2to1": null,
+	"ArticleBodyRaw": ["<?xml version=\"1.0\" encoding=\"UTF-8\"?><idf xmlns=\"http://www.infomaker.se/idf/1.0\" dir=\"ltr\" xml:lang=\"sv\">\n                \n                \n                <group type=\"body\"><element id=\"headline-d1f5ac9f52fc17b4da89004c9c7493da\" type=\"headline\">World Cup final brings world together</element><element id=\"preamble-a5efff9f3af396a0b0f095f2284b9023\" type=\"preamble\">Whether you call it football or soccer, the World Cup brings sports fans together in a way no other event does</element><element id=\"dateline-c62326f83acd01f3ac05492fa1c026d4\" type=\"dateline\">Melbourne</element><element id=\"paragraph-47c830525c2aa1350527b71ffbfe23d8\" type=\"body\">More than 2 billion fans around the world will watch World Cup matches on over-the-air television, cable, and streaming sites.</element><element id=\"paragraph-1c5f3f74919b14088c2312e93008607d\" type=\"body\"/><element id=\"paragraph-de02f5d68812dac8b0fab690c8731414\" type=\"body\">From Russia to Rejkajvik, people stop what they're doing to watch the games.</element><element id=\"paragraph-5fde5808446204460637142c4a7dd6cb\" type=\"body\">\"We love to watch the football,\" Ryan Engelman said.</element><element id=\"paragraph-04249df07775f57dc553a55c843cd230\" type=\"body\"><a href=\"Read more about the stuff.\" id=\"link-7fb9d91f39c4d8a2055174897c6f0cdf\">https://datawrapper.dwcdn.net/cMMly/1/</a></element><element id=\"paragraph-2efc4ab718b5636ab0f4be226e04aeeb\" type=\"body\">When in the course of human events it comes time to test software, we test software to test it.</element></group></idf>"],
+	"TeaserText": ["Whether you call it football or soccer, the World Cup brings sports fans together in a way no other event does"],
+	"TagConcepts": [],
+	"Categories": [{
+		"ConceptName": ["Sport"],
+		"uuid": ["c13b0852-254f-4eb0-9eab-cea7ddd3b683"]
+	}],
+	"Pubdate": ["2018-08-09T13:51:48Z"],
+	"TeaserImageWidth": null,
+	"EveryUrlCollection": null,
+	"contenttype": ["Article"],
+	"ArticleDateline": ["Melbourne"],
+	"ImageHeights": null,
+	"ArticleContentType": ["Nyhet"],
+	"TeaserHeadline": ["World Cup final brings world together"]
+}

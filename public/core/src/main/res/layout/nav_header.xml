@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <se.infomaker.frt.ui.view.RightCropImageView
+        android:id="@+id/nav_header_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_gravity="top" />
+
+    <RelativeLayout
+        android:id="@+id/chosen_account_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start|left"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nav_header_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/nav_header_logo_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitEnd"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</FrameLayout>

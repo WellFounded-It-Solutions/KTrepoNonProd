@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp">
+
+    <se.infomaker.iap.theme.view.ThemeableLinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="56dp"
+        android:orientation="horizontal"
+        app:themeBackgroundColor="defaultTeaserBackground">
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:layout_marginVertical="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            app:themeKey="conceptFooter"
+            app:textPrefix="Läs mer om "
+            tools:text="Läs mer om Amerikanska valet - efterspelet" />
+
+        <se.infomaker.iap.theme.view.ThemeableImageView
+            android:id="@+id/icon"
+            app:srcCompat="@drawable/chevron_right"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="12dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+    </se.infomaker.iap.theme.view.ThemeableLinearLayout>
+
+</se.infomaker.iap.theme.view.ThemeableCardView>
